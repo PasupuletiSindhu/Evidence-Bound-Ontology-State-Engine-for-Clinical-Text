@@ -1,0 +1,46 @@
+Graph evaluation summary (paraphrase (all baselines))
+==================================================
+
+
+Sets: 10
+Baselines: 3
+
+--- Set 1: Aspirin causes gastric bleeding. ---
+  [baseline_3] ged_pairwise: mean = 3.9778, 95% CI = [3.3960, 4.5595]
+  [baseline_3] jaccard_pairwise: mean = 0.0458, 95% CI = [-0.0052, 0.0967]
+
+--- Set 2: Metformin is used to treat type 2 diabetes. ---
+  [baseline_3] ged_pairwise: mean = 3.2000, 95% CI = [2.4937, 3.9063]
+  [baseline_3] jaccard_pairwise: mean = 0.2222, 95% CI = [0.0959, 0.3485]
+
+--- Set 3: Warfarin increases the risk of bleeding. ---
+  [baseline_3] ged_pairwise: mean = 1.7111, 95% CI = [1.2929, 2.1293]
+  [baseline_3] jaccard_pairwise: mean = 0.2444, 95% CI = [0.1139, 0.3750]
+
+--- Set 4: Ibuprofen can reduce fever and pain. ---
+  [baseline_3] ged_pairwise: mean = 2.4667, 95% CI = [1.9024, 3.0309]
+  [baseline_3] jaccard_pairwise: mean = 0.2444, 95% CI = [0.1139, 0.3750]
+
+--- Set 5: Acetaminophen is metabolized by the liver. ---
+  [baseline_3] ged_pairwise: mean = 1.3556, 95% CI = [1.0903, 1.6209]
+  [baseline_3] jaccard_pairwise: mean = 0.1556, 95% CI = [0.0454, 0.2657]
+
+--- Set 6: Statins lower cholesterol. ---
+  [baseline_3] ged_pairwise: mean = 1.6000, 95% CI = [1.2468, 1.9532]
+  [baseline_3] jaccard_pairwise: mean = 0.2222, 95% CI = [0.0959, 0.3485]
+
+--- Set 7: Insulin regulates blood glucose. ---
+  [baseline_3] ged_pairwise: mean = 7.1333, 95% CI = [5.4199, 8.8468]
+  [baseline_3] jaccard_pairwise: mean = 0.0357, 95% CI = [-0.0100, 0.0815]
+
+--- Set 8: Penicillin treats bacterial infections. ---
+  [baseline_3] ged_pairwise: mean = 0.8000, 95% CI = [0.6015, 0.9985]
+  [baseline_3] jaccard_pairwise: mean = 0.3333, 95% CI = [0.1901, 0.4766]
+
+--- Set 9: Morphine relieves severe pain. ---
+  [baseline_3] ged_pairwise: mean = 3.4000, 95% CI = [2.8550, 3.9450]
+  [baseline_3] jaccard_pairwise: mean = 0.0667, 95% CI = [-0.0091, 0.1425]
+
+--- Set 10: Beta blockers reduce blood pressure. ---
+  [baseline_3] ged_pairwise: mean = 0.8000, 95% CI = [0.4287, 1.1713]
+  [baseline_3] jaccard_pairwise: mean = 0.6222, 95% CI = [0.4749, 0.7695]

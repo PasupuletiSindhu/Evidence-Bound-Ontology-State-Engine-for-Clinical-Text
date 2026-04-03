@@ -1,0 +1,6 @@
+QA over graph (downstream)
+==================================================
+
+  [baseline_3] Exact Match: 20.00%  Recall@1: 20.00%  (n=20)
+  [baseline_1] Exact Match: 0.00%  Recall@1: 0.00%  (n=20)
+  [baseline_2] Exact Match: 0.00%  Recall@1: 0.00%  (n=20)

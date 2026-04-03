@@ -1,0 +1,49 @@
+Graph evaluation summary (paraphrase (all baselines))
+==================================================
+
+
+Sets: 10
+Baselines: 3
+
+--- Set 1: Aspirin causes gastric bleeding. ---
+  [baseline_3] ged_pairwise: mean = 2.4000, 95% CI = [1.3230, 3.4770]
+  [baseline_3] jaccard_pairwise: mean = 0.1000, 95% CI = [-0.1262, 0.3262]
+
+--- Set 2: Metformin is used to treat type 2 diabetes. ---
+  [baseline_3] ged_pairwise: mean = 3.6000, 95% CI = [2.2427, 4.9573]
+  [baseline_3] jaccard_pairwise: mean = 0.1000, 95% CI = [-0.1262, 0.3262]
+
+--- Set 3: Warfarin increases the risk of bleeding. ---
+  [baseline_3] ged_pairwise: mean = 1.2000, 95% CI = [0.0918, 2.3082]
+  [baseline_3] jaccard_pairwise: mean = 0.6000, 95% CI = [0.2306, 0.9694]
+
+--- Set 4: Ibuprofen can reduce fever and pain. ---
+  [baseline_3] ged_pairwise: mean = 3.6000, 95% CI = [2.2427, 4.9573]
+  [baseline_3] jaccard_pairwise: mean = 0.1000, 95% CI = [-0.1262, 0.3262]
+
+--- Set 5: Acetaminophen is metabolized by the liver. ---
+  [baseline_3] ged_pairwise: mean = 2.0000, 95% CI = [1.4159, 2.5841]
+  [baseline_3] jaccard_pairwise: mean = 0.0000, 95% CI = [0.0000, 0.0000]
+
+--- Set 6: Statins lower cholesterol. ---
+  [baseline_3] ged_pairwise: mean = 1.2000, 95% CI = [0.4612, 1.9388]
+  [baseline_3] jaccard_pairwise: mean = 0.3000, 95% CI = [-0.0456, 0.6456]
+
+--- Set 7: Insulin regulates blood glucose. ---
+  [baseline_3] ged_pairwise: mean = 9.8000, 95% CI = [7.4685, 12.1315]
+  [baseline_3] jaccard_pairwise: mean = 0.0257, 95% CI = [-0.0050, 0.0564]
+
+--- Set 8: Penicillin treats bacterial infections. ---
+  [baseline_3] ged_pairwise: mean = 0.8000, 95% CI = [0.3476, 1.2524]
+  [baseline_3] jaccard_pairwise: mean = 0.3000, 95% CI = [-0.0456, 0.6456]
+
+--- Set 9: Morphine relieves severe pain. ---
+  [baseline_3] ged_pairwise: mean = 2.4000, 95% CI = [1.7089, 3.0911]
+  [baseline_3] jaccard_pairwise: mean = 0.0000, 95% CI = [0.0000, 0.0000]
+
+--- Set 10: Beta blockers reduce blood pressure. ---
+  [baseline_3] ged_pairwise: mean = 1.2000, 95% CI = [0.0918, 2.3082]
+  [baseline_3] jaccard_pairwise: mean = 0.6000, 95% CI = [0.2306, 0.9694]
+
+--- QA over graph (downstream, merged triples from all sets) ---
+  [baseline_3] Exact Match: 16.00%  Recall@1: 16.00%  (n=50)

@@ -1,0 +1,55 @@
+{
+  "mode": "paraphrase",
+  "description": "Synthetic Qwen-style extractions for Demo (baseline_3 only). Relations are noisy strings; relation_map + clustering align them to canonical relations.",
+  "num_sets": 2,
+  "config": {
+    "demo": true,
+    "baselines": ["3"]
+  },
+  "sets": [
+    {
+      "fact": "Aspirin causes gastric bleeding.",
+      "paraphrases": [
+        "Aspirin may cause gastric bleeding in some patients.",
+        "Aspirin may cause stomach bleeding in susceptible patients.",
+        "Gastric bleeding can result from aspirin use.",
+        "Aspirin is associated with gastric hemorrhage."
+      ],
+      "baseline_3": {
+        "stats": {
+          "ged_pairwise": {"mean": 0.0, "ci_lower": 0.0, "ci_upper": 0.0},
+          "jaccard_pairwise": {"mean": 1.0, "ci_lower": 1.0, "ci_upper": 1.0}
+        },
+        "triples_per_paraphrase": [
+          [["aspirin", "may cause", "gastric bleeding"]],
+          [["Aspirin", "may cause", "stomach bleeding"]],
+          [["acetylsalicylic acid", "associated with", "gastric hemorrhage"]],
+          [["aspirin", "associated with", "gastric bleeding"]]
+        ],
+        "ged_pairwise": [],
+        "jaccard_pairwise": []
+      }
+    },
+    {
+      "fact": "Metformin is used to treat type 2 diabetes.",
+      "paraphrases": [
+        "Metformin treats type 2 diabetes.",
+        "Metformin treats T2DM.",
+        "Type 2 diabetes is treated with metformin."
+      ],
+      "baseline_3": {
+        "stats": {
+          "ged_pairwise": {"mean": 0.0, "ci_lower": 0.0, "ci_upper": 0.0},
+          "jaccard_pairwise": {"mean": 1.0, "ci_lower": 1.0, "ci_upper": 1.0}
+        },
+        "triples_per_paraphrase": [
+          [["metformin", "treats", "type 2 diabetes"]],
+          [["Metformin", "treats", "T2DM"]],
+          [["Type 2 diabetes", "treated with", "Metformin"]]
+        ],
+        "ged_pairwise": [],
+        "jaccard_pairwise": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "description": "Demo paraphrase sets (10 facts, 5 paraphrases each) generated from baselines/paraphrase_sets_50.json.",
+  "paraphrase_sets": [
+    {
+      "fact": "Aspirin causes gastric bleeding.",
+      "paraphrases": [
+        "Aspirin may cause gastric bleeding in some patients.",
+        "Gastric bleeding may occur due to Aspirin.",
+        "Aspirin is associated with gastric hemorrhage.",
+        "Patients taking Aspirin can develop gastric bleeding.",
+        "Aspirin can lead to bleeding in the stomach."
+      ]
+    },
+    {
+      "fact": "Metformin is used to treat type 2 diabetes.",
+      "paraphrases": [
+        "Metformin is used to treat type 2 diabetes.",
+        "Type 2 diabetes can be treated with Metformin.",
+        "Metformin is a first-line treatment for type 2 diabetes.",
+        "Patients with type 2 diabetes often take Metformin.",
+        "Metformin helps control blood sugar in type 2 diabetes."
+      ]
+    },
+    {
+      "fact": "Warfarin increases the risk of bleeding.",
+      "paraphrases": [
+        "Warfarin increases the risk of bleeding.",
+        "Bleeding risk is elevated with Warfarin use.",
+        "Warfarin can cause bleeding complications.",
+        "Patients on Warfarin have an increased bleeding risk.",
+        "Warfarin is associated with a higher risk of bleeding."
+      ]
+    },
+    {
+      "fact": "Ibuprofen can reduce fever and pain.",
+      "paraphrases": [
+        "Ibuprofen can reduce fever and pain.",
+        "Ibuprofen is used to lower fever and relieve pain.",
+        "Fever and pain may be reduced by Ibuprofen.",
+        "Ibuprofen helps reduce fever and alleviate pain.",
+        "Ibuprofen is effective for fever and pain relief."
+      ]
+    },
+    {
+      "fact": "Acetaminophen is metabolized by the liver.",
+      "paraphrases": [
+        "Acetaminophen is metabolized by the liver.",
+        "The liver metabolizes Acetaminophen.",
+        "Acetaminophen metabolism occurs in the liver.",
+        "Liver enzymes metabolize Acetaminophen.",
+        "Acetaminophen is broken down by the liver."
+      ]
+    },
+    {
+      "fact": "Statins lower cholesterol.",
+      "paraphrases": [
+        "Statins are used to lower cholesterol.",
+        "Cholesterol can be reduced by statins.",
+        "Statins reduce cholesterol levels.",
+        "Lowering cholesterol is an effect of statins.",
+        "Statins help lower LDL cholesterol."
+      ]
+    },
+    {
+      "fact": "Insulin regulates blood glucose.",
+      "paraphrases": [
+        "Insulin regulates blood glucose levels.",
+        "Blood glucose is regulated by insulin.",
+        "Insulin helps control blood sugar.",
+        "Glucose regulation depends on insulin.",
+        "Insulin is involved in glucose regulation."
+      ]
+    },
+    {
+      "fact": "Penicillin treats bacterial infections.",
+      "paraphrases": [
+        "Penicillin is used to treat bacterial infections.",
+        "Bacterial infections can be treated with penicillin.",
+        "Penicillin treats infections caused by bacteria.",
+        "Penicillin is an antibiotic for bacterial infections.",
+        "Bacterial infections are treated with penicillin."
+      ]
+    },
+    {
+      "fact": "Morphine relieves severe pain.",
+      "paraphrases": [
+        "Morphine relieves severe pain.",
+        "Severe pain can be relieved by morphine.",
+        "Morphine is used for severe pain relief.",
+        "Morphine provides relief from severe pain.",
+        "Severe pain is often treated with morphine."
+      ]
+    },
+    {
+      "fact": "Beta blockers reduce blood pressure.",
+      "paraphrases": [
+        "Beta blockers reduce blood pressure.",
+        "Blood pressure can be lowered by beta blockers.",
+        "Beta blockers are used to reduce blood pressure.",
+        "Lowering blood pressure is an effect of beta blockers.",
+        "Beta blockers help lower blood pressure."
+      ]
+    }
+  ]
+}
