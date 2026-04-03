@@ -32,21 +32,6 @@ Inspect `Demo/method_comparison.md`, `Demo/state_engine_results.json`, and `Demo
 
 ![System architecture: data ingestion, knowledge extraction baselines, generated triple streams, evidence-bound ontology state engine, evaluation metrics and reports](assets/framework_overview.png)
 
-```mermaid
-flowchart LR
-  D[Paraphrase sets & QA] --> B[Baselines]
-  B --> B1[BioBERT NER + RE]
-  B --> B2[+ Ontology IDs]
-  B --> B3[Qwen prompt triples]
-  B1 & B2 & B3 --> T[Triples per paraphrase]
-  T --> S[Evidence-bound state engine]
-  S --> C[Canonicalize & cluster entities]
-  S --> A[Ontology alignment]
-  S --> G[Incremental knowledge graph]
-  G --> M[Metrics: GED, Jaccard, Drift@τ]
-  G --> Q[QA: EM / R@1]
-```
-
 ---
 
 ## Repository layout
