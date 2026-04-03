@@ -1,0 +1,836 @@
+{
+  "description": "98 QA examples aligned to canonical triple schema (entity_mode=text).",
+  "relation_aliases": {
+    "interacts_with": [
+      "ALTERS",
+      "EFFECT",
+      "INTERACTS_WITH",
+      "interacts_with"
+    ],
+    "reduces": [
+      "\"ANTI-INFLAMMATORY\"",
+      "\"ARE\"",
+      "\"BETA_BLOCKERS\"",
+      "\"DECREASE\"",
+      "\"DECREASE_INFLAMMATION\"",
+      "\"EFFECTS\"",
+      "\"FOR\"",
+      "\"INFLAMMATION\"",
+      "\"LOWER\"",
+      "\"MANAGED\"",
+      "\"OBJECT\"",
+      "\"PAIN_RELIEF\"",
+      "\"REDUCED\"",
+      "\"REDUCE_INFLAMMATION\"",
+      "\"RELATION\"",
+      "\"RELIEF\"",
+      "\"SUBJECT\"",
+      "\"USE\"",
+      "FEVER",
+      "IS_TAKEN",
+      "LOWERED_BY",
+      "LOWERS",
+      "LOWERS_CHOLESTEROL",
+      "PAIN",
+      "QUICKLY",
+      "REDUCED",
+      "REDUCES",
+      "REDUCES_PAIN",
+      "RELATED_TO",
+      "RELIEF",
+      "RELIEVES",
+      "reduces"
+    ],
+    "causes": [
+      "\"IS\"",
+      "CAUSES",
+      "CONTROLS",
+      "DIURETIC",
+      "DIURETIC_ACTION",
+      "HAS",
+      "IN",
+      "INSULIN",
+      "IS_USED_AS_A",
+      "LACTIC_ACIDOSIS",
+      "OBJECT",
+      "REGULATES",
+      "REGULATES_BLOOD_GLUCOSE",
+      "SIDE_EFFECT",
+      "SUPPRESS",
+      "SUPPRESSES",
+      "TAKING",
+      "causes"
+    ],
+    "prevents": [
+      "\"ALTERNATIVE\"",
+      "\"HELPS_PREVENT_ARTERIAL_THROMBOSIS\"",
+      "\"IN\"",
+      "\"IS_AN\"",
+      "\"PREVENT\"",
+      "\"PREVENTS\"",
+      "\"REDUCTION\"",
+      "IS_A_CONDITION",
+      "IS_A_MEDICAL_CONDITION",
+      "IS_PRESCRIBED_TO",
+      "IS_USED_FOR_STROKE_PREVENTION",
+      "PREVENT",
+      "PREVENTION",
+      "PREVENTS",
+      "TAKEN",
+      "USE",
+      "prevents"
+    ],
+    "metabolized_by": [
+      "IS_BROKEN_DOWN_BY_THE_LIVER",
+      "IS_METABOLIZED_BY_THE_LIVER",
+      "METABOLISM",
+      "METABOLIZES",
+      "metabolized_by"
+    ],
+    "treats": [
+      "\"COVERS\"",
+      "\"EFFECTIVE\"",
+      "\"FIRST-LINE\"",
+      "\"IMPROVES\"",
+      "\"ISOSORBIDE_MONONITRATE\"",
+      "\"IS_A\"",
+      "\"IS_USED\"",
+      "\"IS_USED_FOR\"",
+      "\"PAIN\"",
+      "\"PRESCRIBED\"",
+      "\"REDUCES\"",
+      "\"RELIEVES\"",
+      "\"TREATMENT\"",
+      "\"TREATS\"",
+      "\"USED\"",
+      "ANGINA",
+      "ANTIBIOTIC",
+      "ARE",
+      "CONCENTRATES",
+      "CONCENTRATION",
+      "CONTROLLED",
+      "DILATES",
+      "DISEASE",
+      "FROM",
+      "GOUT",
+      "HEALS",
+      "HELPS",
+      "IMPROVES",
+      "INFECTION",
+      "IS",
+      "ISOSORBIDE_MONONITRATE",
+      "IS_A",
+      "IS_EFFECTIVE",
+      "IS_EFFECTIVE_FOR",
+      "IS_MANAGED",
+      "IS_MANAGED_WITH",
+      "IS_TREATED_BY",
+      "IS_TREATED_WITH",
+      "IS_TREATMENT",
+      "IS_USED",
+      "IS_USED_FOR",
+      "IS_USED_IN",
+      "IS_USED_TO_TREAT",
+      "REPLACES",
+      "SKIN_INFECTION",
+      "SYMPTOM",
+      "TREATED",
+      "TREATED_BY",
+      "TREATED_WITH",
+      "TREATMENT",
+      "TREATS",
+      "treats"
+    ],
+    "increases": [
+      "increases"
+    ]
+  },
+  "examples": [
+    {
+      "question": "What does aspirin cause?",
+      "subject": "aspirin",
+      "relation": "causes",
+      "object": "?",
+      "answer": "gastric bleeding"
+    },
+    {
+      "question": "What causes gastric bleeding?",
+      "subject": "?",
+      "relation": "causes",
+      "object": "gastric bleeding",
+      "answer": "aspirin"
+    },
+    {
+      "question": "What does metformin treat?",
+      "subject": "metformin",
+      "relation": "treats",
+      "object": "?",
+      "answer": "type 2 diabetes"
+    },
+    {
+      "question": "What drug treats type 2 diabetes?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "type 2 diabetes",
+      "answer": "metformin"
+    },
+    {
+      "question": "What does warfarin increase?",
+      "subject": "warfarin",
+      "relation": "increases",
+      "object": "?",
+      "answer": "bleeding"
+    },
+    {
+      "question": "What increases bleeding?",
+      "subject": "?",
+      "relation": "increases",
+      "object": "bleeding",
+      "answer": "warfarin"
+    },
+    {
+      "question": "What does ibuprofen reduce?",
+      "subject": "ibuprofen",
+      "relation": "reduces",
+      "object": "?",
+      "answer": "fever and pain"
+    },
+    {
+      "question": "What reduces fever and pain?",
+      "subject": "?",
+      "relation": "reduces",
+      "object": "fever and pain",
+      "answer": "ibuprofen"
+    },
+    {
+      "question": "Which organ metabolizes acetaminophen?",
+      "subject": "acetaminophen",
+      "relation": "metabolized_by",
+      "object": "?",
+      "answer": "liver"
+    },
+    {
+      "question": "What drug is metabolized by the liver?",
+      "subject": "?",
+      "relation": "metabolized_by",
+      "object": "liver",
+      "answer": "acetaminophen"
+    },
+    {
+      "question": "What does statins reduce?",
+      "subject": "statins",
+      "relation": "reduces",
+      "object": "?",
+      "answer": "cholesterol"
+    },
+    {
+      "question": "What reduces cholesterol?",
+      "subject": "?",
+      "relation": "reduces",
+      "object": "cholesterol",
+      "answer": "statins"
+    },
+    {
+      "question": "What does insulin cause?",
+      "subject": "insulin",
+      "relation": "causes",
+      "object": "?",
+      "answer": "blood glucose"
+    },
+    {
+      "question": "What causes blood glucose?",
+      "subject": "?",
+      "relation": "causes",
+      "object": "blood glucose",
+      "answer": "insulin"
+    },
+    {
+      "question": "What does penicillin treat?",
+      "subject": "penicillin",
+      "relation": "treats",
+      "object": "?",
+      "answer": "bacterial infections"
+    },
+    {
+      "question": "What drug treats bacterial infections?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "bacterial infections",
+      "answer": "penicillin"
+    },
+    {
+      "question": "What does morphine reduce?",
+      "subject": "morphine",
+      "relation": "reduces",
+      "object": "?",
+      "answer": "severe pain"
+    },
+    {
+      "question": "What reduces severe pain?",
+      "subject": "?",
+      "relation": "reduces",
+      "object": "severe pain",
+      "answer": "morphine"
+    },
+    {
+      "question": "What does beta blockers reduce?",
+      "subject": "beta blockers",
+      "relation": "reduces",
+      "object": "?",
+      "answer": "blood pressure"
+    },
+    {
+      "question": "What reduces blood pressure?",
+      "subject": "?",
+      "relation": "reduces",
+      "object": "blood pressure",
+      "answer": "beta blockers"
+    },
+    {
+      "question": "What does anticoagulants prevent?",
+      "subject": "anticoagulants",
+      "relation": "prevents",
+      "object": "?",
+      "answer": "blood clots"
+    },
+    {
+      "question": "What prevents blood clots?",
+      "subject": "?",
+      "relation": "prevents",
+      "object": "blood clots",
+      "answer": "anticoagulants"
+    },
+    {
+      "question": "What does corticosteroids reduce?",
+      "subject": "corticosteroids",
+      "relation": "reduces",
+      "object": "?",
+      "answer": "inflammation"
+    },
+    {
+      "question": "What reduces inflammation?",
+      "subject": "?",
+      "relation": "reduces",
+      "object": "inflammation",
+      "answer": "corticosteroids"
+    },
+    {
+      "question": "What does metformin cause?",
+      "subject": "metformin",
+      "relation": "causes",
+      "object": "?",
+      "answer": "lactic acidosis"
+    },
+    {
+      "question": "What causes lactic acidosis?",
+      "subject": "?",
+      "relation": "causes",
+      "object": "lactic acidosis",
+      "answer": "metformin"
+    },
+    {
+      "question": "What does warfarin interact with?",
+      "subject": "warfarin",
+      "relation": "interacts_with",
+      "object": "?",
+      "answer": "vitamin k"
+    },
+    {
+      "question": "What interacts with vitamin k?",
+      "subject": "?",
+      "relation": "interacts_with",
+      "object": "vitamin k",
+      "answer": "warfarin"
+    },
+    {
+      "question": "What does aspirin prevent?",
+      "subject": "aspirin",
+      "relation": "prevents",
+      "object": "?",
+      "answer": "heart attacks"
+    },
+    {
+      "question": "What prevents heart attacks?",
+      "subject": "?",
+      "relation": "prevents",
+      "object": "heart attacks",
+      "answer": "aspirin"
+    },
+    {
+      "question": "What does omeprazole reduce?",
+      "subject": "omeprazole",
+      "relation": "reduces",
+      "object": "?",
+      "answer": "stomach acid"
+    },
+    {
+      "question": "What reduces stomach acid?",
+      "subject": "?",
+      "relation": "reduces",
+      "object": "stomach acid",
+      "answer": "omeprazole"
+    },
+    {
+      "question": "What does lithium treat?",
+      "subject": "lithium",
+      "relation": "treats",
+      "object": "?",
+      "answer": "bipolar disorder"
+    },
+    {
+      "question": "What drug treats bipolar disorder?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "bipolar disorder",
+      "answer": "lithium"
+    },
+    {
+      "question": "What does levothyroxine treat?",
+      "subject": "levothyroxine",
+      "relation": "treats",
+      "object": "?",
+      "answer": "hypothyroidism"
+    },
+    {
+      "question": "What drug treats hypothyroidism?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "hypothyroidism",
+      "answer": "levothyroxine"
+    },
+    {
+      "question": "What does albuterol reduce?",
+      "subject": "albuterol",
+      "relation": "reduces",
+      "object": "?",
+      "answer": "asthma symptoms"
+    },
+    {
+      "question": "What reduces asthma symptoms?",
+      "subject": "?",
+      "relation": "reduces",
+      "object": "asthma symptoms",
+      "answer": "albuterol"
+    },
+    {
+      "question": "What does furosemide cause?",
+      "subject": "furosemide",
+      "relation": "causes",
+      "object": "?",
+      "answer": "diuretic"
+    },
+    {
+      "question": "What causes diuretic?",
+      "subject": "?",
+      "relation": "causes",
+      "object": "diuretic",
+      "answer": "furosemide"
+    },
+    {
+      "question": "What does digoxin increase?",
+      "subject": "digoxin",
+      "relation": "increases",
+      "object": "?",
+      "answer": "heart contractility"
+    },
+    {
+      "question": "What increases heart contractility?",
+      "subject": "?",
+      "relation": "increases",
+      "object": "heart contractility",
+      "answer": "digoxin"
+    },
+    {
+      "question": "What does prednisone cause?",
+      "subject": "prednisone",
+      "relation": "causes",
+      "object": "?",
+      "answer": "the immune system"
+    },
+    {
+      "question": "What causes the immune system?",
+      "subject": "?",
+      "relation": "causes",
+      "object": "the immune system",
+      "answer": "prednisone"
+    },
+    {
+      "question": "What does fluoxetine treat?",
+      "subject": "fluoxetine",
+      "relation": "treats",
+      "object": "?",
+      "answer": "depression"
+    },
+    {
+      "question": "What drug treats depression?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "depression",
+      "answer": "fluoxetine"
+    },
+    {
+      "question": "What does amoxicillin treat?",
+      "subject": "amoxicillin",
+      "relation": "treats",
+      "object": "?",
+      "answer": "ear infections"
+    },
+    {
+      "question": "What drug treats ear infections?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "ear infections",
+      "answer": "amoxicillin"
+    },
+    {
+      "question": "What does atorvastatin reduce?",
+      "subject": "atorvastatin",
+      "relation": "reduces",
+      "object": "?",
+      "answer": "ldl cholesterol"
+    },
+    {
+      "question": "What reduces ldl cholesterol?",
+      "subject": "?",
+      "relation": "reduces",
+      "object": "ldl cholesterol",
+      "answer": "atorvastatin"
+    },
+    {
+      "question": "What does sertraline treat?",
+      "subject": "sertraline",
+      "relation": "treats",
+      "object": "?",
+      "answer": "anxiety"
+    },
+    {
+      "question": "What drug treats anxiety?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "anxiety",
+      "answer": "sertraline"
+    },
+    {
+      "question": "What does hydrochlorothiazide cause?",
+      "subject": "hydrochlorothiazide",
+      "relation": "causes",
+      "object": "?",
+      "answer": "diuretic"
+    },
+    {
+      "question": "What causes diuretic?",
+      "subject": "?",
+      "relation": "causes",
+      "object": "diuretic",
+      "answer": "hydrochlorothiazide"
+    },
+    {
+      "question": "What does gabapentin treat?",
+      "subject": "gabapentin",
+      "relation": "treats",
+      "object": "?",
+      "answer": "nerve pain"
+    },
+    {
+      "question": "What drug treats nerve pain?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "nerve pain",
+      "answer": "gabapentin"
+    },
+    {
+      "question": "What does losartan treat?",
+      "subject": "losartan",
+      "relation": "treats",
+      "object": "?",
+      "answer": "high blood pressure"
+    },
+    {
+      "question": "What drug treats high blood pressure?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "high blood pressure",
+      "answer": "losartan"
+    },
+    {
+      "question": "What does metronidazole treat?",
+      "subject": "metronidazole",
+      "relation": "treats",
+      "object": "?",
+      "answer": "bacterial infections"
+    },
+    {
+      "question": "What drug treats bacterial infections?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "bacterial infections",
+      "answer": "metronidazole"
+    },
+    {
+      "question": "What does sumatriptan treat?",
+      "subject": "sumatriptan",
+      "relation": "treats",
+      "object": "?",
+      "answer": "migraine headaches"
+    },
+    {
+      "question": "What drug treats migraine headaches?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "migraine headaches",
+      "answer": "sumatriptan"
+    },
+    {
+      "question": "What does clopidogrel prevent?",
+      "subject": "clopidogrel",
+      "relation": "prevents",
+      "object": "?",
+      "answer": "blood clots"
+    },
+    {
+      "question": "What prevents blood clots?",
+      "subject": "?",
+      "relation": "prevents",
+      "object": "blood clots",
+      "answer": "clopidogrel"
+    },
+    {
+      "question": "What does montelukast treat?",
+      "subject": "montelukast",
+      "relation": "treats",
+      "object": "?",
+      "answer": "asthma"
+    },
+    {
+      "question": "What drug treats asthma?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "asthma",
+      "answer": "montelukast"
+    },
+    {
+      "question": "What does allopurinol treat?",
+      "subject": "allopurinol",
+      "relation": "treats",
+      "object": "?",
+      "answer": "gout"
+    },
+    {
+      "question": "What drug treats gout?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "gout",
+      "answer": "allopurinol"
+    },
+    {
+      "question": "What does carbamazepine treat?",
+      "subject": "carbamazepine",
+      "relation": "treats",
+      "object": "?",
+      "answer": "epilepsy"
+    },
+    {
+      "question": "What drug treats epilepsy?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "epilepsy",
+      "answer": "carbamazepine"
+    },
+    {
+      "question": "What does finasteride treat?",
+      "subject": "finasteride",
+      "relation": "treats",
+      "object": "?",
+      "answer": "benign prostatic hyperplasia"
+    },
+    {
+      "question": "What drug treats benign prostatic hyperplasia?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "benign prostatic hyperplasia",
+      "answer": "finasteride"
+    },
+    {
+      "question": "What does azithromycin treat?",
+      "subject": "azithromycin",
+      "relation": "treats",
+      "object": "?",
+      "answer": "pneumonia"
+    },
+    {
+      "question": "What drug treats pneumonia?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "pneumonia",
+      "answer": "azithromycin"
+    },
+    {
+      "question": "What does isosorbide mononitrate treat?",
+      "subject": "isosorbide mononitrate",
+      "relation": "treats",
+      "object": "?",
+      "answer": "angina"
+    },
+    {
+      "question": "What drug treats angina?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "angina",
+      "answer": "isosorbide mononitrate"
+    },
+    {
+      "question": "What does spironolactone treat?",
+      "subject": "spironolactone",
+      "relation": "treats",
+      "object": "?",
+      "answer": "heart failure"
+    },
+    {
+      "question": "What drug treats heart failure?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "heart failure",
+      "answer": "spironolactone"
+    },
+    {
+      "question": "What does methotrexate treat?",
+      "subject": "methotrexate",
+      "relation": "treats",
+      "object": "?",
+      "answer": "rheumatoid arthritis"
+    },
+    {
+      "question": "What drug treats rheumatoid arthritis?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "rheumatoid arthritis",
+      "answer": "methotrexate"
+    },
+    {
+      "question": "What does nitrofurantoin treat?",
+      "subject": "nitrofurantoin",
+      "relation": "treats",
+      "object": "?",
+      "answer": "urinary tract infections"
+    },
+    {
+      "question": "What drug treats urinary tract infections?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "urinary tract infections",
+      "answer": "nitrofurantoin"
+    },
+    {
+      "question": "What does haloperidol treat?",
+      "subject": "haloperidol",
+      "relation": "treats",
+      "object": "?",
+      "answer": "schizophrenia"
+    },
+    {
+      "question": "What drug treats schizophrenia?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "schizophrenia",
+      "answer": "haloperidol"
+    },
+    {
+      "question": "What does phenytoin treat?",
+      "subject": "phenytoin",
+      "relation": "treats",
+      "object": "?",
+      "answer": "seizures"
+    },
+    {
+      "question": "What drug treats seizures?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "seizures",
+      "answer": "phenytoin"
+    },
+    {
+      "question": "What does doxycycline treat?",
+      "subject": "doxycycline",
+      "relation": "treats",
+      "object": "?",
+      "answer": "lyme disease"
+    },
+    {
+      "question": "What drug treats lyme disease?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "lyme disease",
+      "answer": "doxycycline"
+    },
+    {
+      "question": "What does esomeprazole treat?",
+      "subject": "esomeprazole",
+      "relation": "treats",
+      "object": "?",
+      "answer": "gastroesophageal reflux disease"
+    },
+    {
+      "question": "What drug treats gastroesophageal reflux disease?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "gastroesophageal reflux disease",
+      "answer": "esomeprazole"
+    },
+    {
+      "question": "What does tamsulosin treat?",
+      "subject": "tamsulosin",
+      "relation": "treats",
+      "object": "?",
+      "answer": "benign prostatic hyperplasia"
+    },
+    {
+      "question": "What drug treats benign prostatic hyperplasia?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "benign prostatic hyperplasia",
+      "answer": "tamsulosin"
+    },
+    {
+      "question": "What does rivaroxaban prevent?",
+      "subject": "rivaroxaban",
+      "relation": "prevents",
+      "object": "?",
+      "answer": "stroke in atrial fibrillation"
+    },
+    {
+      "question": "What prevents stroke in atrial fibrillation?",
+      "subject": "?",
+      "relation": "prevents",
+      "object": "stroke in atrial fibrillation",
+      "answer": "rivaroxaban"
+    },
+    {
+      "question": "What does clindamycin treat?",
+      "subject": "clindamycin",
+      "relation": "treats",
+      "object": "?",
+      "answer": "skin infections"
+    },
+    {
+      "question": "What drug treats skin infections?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "skin infections",
+      "answer": "clindamycin"
+    },
+    {
+      "question": "What does bisoprolol treat?",
+      "subject": "bisoprolol",
+      "relation": "treats",
+      "object": "?",
+      "answer": "heart failure"
+    },
+    {
+      "question": "What drug treats heart failure?",
+      "subject": "?",
+      "relation": "treats",
+      "object": "heart failure",
+      "answer": "bisoprolol"
+    }
+  ]
+}

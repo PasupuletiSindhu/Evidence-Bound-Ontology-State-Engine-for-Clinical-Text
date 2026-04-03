@@ -1,0 +1,8402 @@
+[
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "object",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "taking",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used to treat",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is treated with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used to treat",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is treated with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used to treat",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is treated with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used to treat",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is treated with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used to treat",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is treated with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used to treat",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is treated with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used to treat",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is treated with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used to treat",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is treated with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "increases"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is taken",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is taken",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is taken",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"pain relief\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"effects\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"subject\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"relation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"object\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces pain",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "fever",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "pain",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is metabolized by the liver",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "is metabolized by the liver",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "is metabolized by the liver",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "metabolizes",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "metabolizes",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "metabolizes",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "metabolism",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "metabolism",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "is broken down by the liver",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "is broken down by the liver",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "is broken down by the liver",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "metabolizes",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "metabolizes",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "metabolizes",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "metabolized_by"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"reduced\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"reduced\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"reduced\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers cholesterol",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"lower\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"lower\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "regulates",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "regulates",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "regulates",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "regulates",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "regulates",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "controls",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "in",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "controls",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "insulin",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "insulin",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "insulin",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "regulates blood glucose",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "regulates blood glucose",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "regulates blood glucose",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is effective",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is effective",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is effective",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relief",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"used\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"used\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"used\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"relief\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"pain\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"pain\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"treatment\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"treatment\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"treatment\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"managed\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"managed\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"managed\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"beta blockers\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"reduce inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"reduce inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"reduce inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"used\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"are\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"are\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"Decrease inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"Decrease inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"Decrease inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"decrease\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"inflammation\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"anti-inflammatory\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"anti-inflammatory\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"anti-inflammatory\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is managed with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "are",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "lactic acidosis",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "has",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "side effect",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "interacts with",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "interacts with",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "interacts with",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "alters",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "effect",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "interacts with",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "interacts_with"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevention",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "use",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevention",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevent",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduction\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduction\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduction\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduction\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduction\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduction\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduction\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduction\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduction\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduction\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduction\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduction\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduction\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "taken",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevent",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "replaces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "replaces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "replaces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "helps",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"use\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "\"for\"",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "relieves",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "quickly",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used as a",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic action",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic action",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic action",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppress",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppress",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppress",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppress",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppress",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppress",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "use",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "suppress",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "has",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "has",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is treated with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is treated with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is managed",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "antibiotic",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "antibiotic",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "disease",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "symptom",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "infection",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "infection",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "infection",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "infection",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "infection",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "infection",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "infection",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "infection",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "infection",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "infection",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "lowered by",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "reduced",
+    "gold_relation": "reduces"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is_treated_by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is_treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is_treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used to treat",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used to treat",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used to treat",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic action",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic action",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "diuretic action",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "causes"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treats\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"pain\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treats\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"used\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"used\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"relieves\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"pain\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"pain\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"prescribed\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"pain\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"effective\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"effective\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"effective\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treatment\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treatment\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treatment\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "controlled",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "controlled",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "controlled",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated by",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"prevents\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"prevent\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"is an\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"is an\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"is an\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "related_to",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevent",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "use",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevent",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"helps prevent arterial thrombosis\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"prevent\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"helps prevent arterial thrombosis\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is used",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevent",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is prescribed to",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is prescribed to",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is prescribed to",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "lowers",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "gout",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is_treated_with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is_treated_with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is_treated_with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treats\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treats\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"used\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"used\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"used\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "angina",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "isosorbide mononitrate",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "isosorbide mononitrate",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "isosorbide mononitrate",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treatment\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"isosorbide mononitrate\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "dilates",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "dilates",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "dilates",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "improves",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "in",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treats\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treatment\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treatment\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"is a\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"is used\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"is used\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"prescribed\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"prescribed\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"prescribed\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"reduces\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"is used\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"is used\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "concentrates",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "concentration",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "concentration",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is effective for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is effective for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is effective for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treated",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is_treated_with",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is_treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is_treatment",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treats\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treatment\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treatment\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"first-line\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"first-line\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"is used for\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"is used for\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"is used for\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"is an\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"is an\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"is an\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"covers\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"in\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "heals",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "from",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "heals",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "suppresses",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "prevents",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"is an\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"is\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"for\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is used for stroke prevention",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is a condition",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is a medical condition",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is a medical condition",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is a medical condition",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is a medical condition",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is a medical condition",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is a medical condition",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is a medical condition",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "is a medical condition",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"lower\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"in\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"alternative\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "\"in\"",
+    "gold_relation": "prevents"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "treats",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "skin infection",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is effective for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is effective for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is effective for",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "causes",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treats\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treats\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"treats\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used in",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used in",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used in",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used in",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used in",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used in",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used in",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used in",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is used in",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "is a",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"improves\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"improves\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "\"improves\"",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "treats"
+  },
+  {
+    "predicted_label": "reduces",
+    "gold_relation": "treats"
+  }
+]

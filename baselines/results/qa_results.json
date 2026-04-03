@@ -1,0 +1,182 @@
+{
+  "mode": "qa_downstream",
+  "config": {
+    "qa_file": "data/qa/aspirin_qa.json",
+    "paraphrase_results": "../results/paraphrase_results.json",
+    "baselines": [
+      "baseline_1",
+      "baseline_2",
+      "baseline_3"
+    ]
+  },
+  "relation_aliases": {
+    "causes": [
+      "causes",
+      "cause",
+      "LABEL_0",
+      "related_to",
+      "associated_with"
+    ],
+    "treats": [
+      "treats",
+      "treat",
+      "used_to_treat",
+      "LABEL_1"
+    ],
+    "interacts_with": [
+      "interacts_with",
+      "interacts with",
+      "interaction"
+    ]
+  },
+  "num_questions": 4,
+  "baseline_1": {
+    "metrics": {
+      "exact_match": 0.5,
+      "recall_at_1": 1.0,
+      "num_questions": 4
+    },
+    "per_question": [
+      {
+        "exact_match": false,
+        "recall_at_1": true,
+        "predicted": [
+          "bleeding in the stomach",
+          "gastric bleeding",
+          "gastric hemorrhage",
+          "stomach bleeding"
+        ],
+        "gold": "gastric bleeding",
+        "question": "What does Aspirin cause?"
+      },
+      {
+        "exact_match": true,
+        "recall_at_1": true,
+        "predicted": [
+          "Aspirin"
+        ],
+        "gold": "Aspirin",
+        "question": "What can cause gastric bleeding?"
+      },
+      {
+        "exact_match": true,
+        "recall_at_1": true,
+        "predicted": [
+          "Aspirin"
+        ],
+        "gold": "Aspirin",
+        "question": "Which drug causes gastric hemorrhage?"
+      },
+      {
+        "exact_match": false,
+        "recall_at_1": true,
+        "predicted": [
+          "bleeding in the stomach",
+          "gastric bleeding",
+          "gastric hemorrhage",
+          "stomach bleeding"
+        ],
+        "gold": "gastric bleeding",
+        "question": "What adverse effect does Aspirin have?"
+      }
+    ]
+  },
+  "baseline_2": {
+    "metrics": {
+      "exact_match": 0.0,
+      "recall_at_1": 0.0,
+      "num_questions": 4
+    },
+    "per_question": [
+      {
+        "exact_match": false,
+        "recall_at_1": false,
+        "predicted": [],
+        "gold": "gastric bleeding",
+        "question": "What does Aspirin cause?"
+      },
+      {
+        "exact_match": false,
+        "recall_at_1": false,
+        "predicted": [],
+        "gold": "Aspirin",
+        "question": "What can cause gastric bleeding?"
+      },
+      {
+        "exact_match": false,
+        "recall_at_1": false,
+        "predicted": [],
+        "gold": "Aspirin",
+        "question": "Which drug causes gastric hemorrhage?"
+      },
+      {
+        "exact_match": false,
+        "recall_at_1": false,
+        "predicted": [],
+        "gold": "gastric bleeding",
+        "question": "What adverse effect does Aspirin have?"
+      }
+    ]
+  },
+  "baseline_3": {
+    "metrics": {
+      "exact_match": 0.5,
+      "recall_at_1": 1.0,
+      "num_questions": 4
+    },
+    "per_question": [
+      {
+        "exact_match": false,
+        "recall_at_1": true,
+        "predicted": [
+          "bleeding in the stomach",
+          "gastric bleeding",
+          "gastric hemorrhage",
+          "gastric cancer",
+          "stomach bleeding",
+          "bleeding",
+          "gastric perforation",
+          "gastric ulcer"
+        ],
+        "gold": "gastric bleeding",
+        "question": "What does Aspirin cause?"
+      },
+      {
+        "exact_match": true,
+        "recall_at_1": true,
+        "predicted": [
+          "3. Aspirin",
+          "1. Aspirin",
+          "2. Aspirin"
+        ],
+        "gold": "Aspirin",
+        "question": "What can cause gastric bleeding?"
+      },
+      {
+        "exact_match": true,
+        "recall_at_1": true,
+        "predicted": [
+          "1. Aspirin"
+        ],
+        "gold": "Aspirin",
+        "question": "Which drug causes gastric hemorrhage?"
+      },
+      {
+        "exact_match": false,
+        "recall_at_1": true,
+        "predicted": [
+          "bleeding in the stomach",
+          "gastric bleeding",
+          "gastric hemorrhage",
+          "gastric cancer",
+          "stomach bleeding",
+          "bleeding",
+          "gastric perforation",
+          "gastric ulcer"
+        ],
+        "gold": "gastric bleeding",
+        "question": "What adverse effect does Aspirin have?"
+      }
+    ]
+  }
+}

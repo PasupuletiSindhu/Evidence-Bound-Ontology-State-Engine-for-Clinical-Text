@@ -1,0 +1,22 @@
+Graph evaluation summary (incremental (all baselines))
+==================================================
+
+Baselines: 1, 2, 3
+
+baseline_1:
+  ged_consecutive: mean = 2.6250, 95% CI = [2.2238, 3.0262]
+  jaccard_consecutive: mean = 0.0000, 95% CI = [0.0000, 0.0000]
+  unsupported_rate: mean = 0.0000, 95% CI = [0.0000, 0.0000]
+  conflict_precision: mean = 1.0000, 95% CI = [1.0000, 1.0000]
+
+baseline_2:
+  ged_consecutive: mean = 2.6250, 95% CI = [2.2238, 3.0262]
+  jaccard_consecutive: mean = 0.0000, 95% CI = [0.0000, 0.0000]
+  unsupported_rate: mean = 0.0000, 95% CI = [0.0000, 0.0000]
+  conflict_precision: mean = 1.0000, 95% CI = [1.0000, 1.0000]
+
+baseline_3:
+  ged_consecutive: mean = 2.8750, 95% CI = [2.2726, 3.4774]
+  jaccard_consecutive: mean = 0.1000, 95% CI = [0.0028, 0.1972]
+  unsupported_rate: mean = 1.0000, 95% CI = [1.0000, 1.0000]
+  conflict_precision: mean = 1.0000, 95% CI = [1.0000, 1.0000]

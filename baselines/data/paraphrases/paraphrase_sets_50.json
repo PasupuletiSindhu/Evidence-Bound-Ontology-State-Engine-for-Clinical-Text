@@ -1,0 +1,755 @@
+{
+  "description": "50 curated clinical paraphrase sets (50 facts x 10 paraphrases each); no synthetic DrugN/ConditionN placeholders.",
+  "paraphrase_sets": [
+    {
+      "fact": "Aspirin causes gastric bleeding.",
+      "paraphrases": [
+        "Aspirin may cause gastric bleeding in some patients.",
+        "Gastric bleeding may occur due to Aspirin.",
+        "Aspirin is associated with gastric hemorrhage.",
+        "Patients taking Aspirin can develop gastric bleeding.",
+        "Aspirin can lead to bleeding in the stomach.",
+        "Gastric hemorrhage is a known adverse effect of Aspirin.",
+        "Use of Aspirin may result in gastric bleeding.",
+        "Aspirin has been linked to stomach bleeding.",
+        "Gastric bleeding can be caused by Aspirin.",
+        "Aspirin increases the risk of gastric bleeding."
+      ]
+    },
+    {
+      "fact": "Metformin is used to treat type 2 diabetes.",
+      "paraphrases": [
+        "Metformin is used to treat type 2 diabetes.",
+        "Type 2 diabetes can be treated with Metformin.",
+        "Metformin is a first-line treatment for type 2 diabetes.",
+        "Patients with type 2 diabetes often take Metformin.",
+        "Metformin helps control blood sugar in type 2 diabetes.",
+        "Metformin is prescribed for the treatment of type 2 diabetes.",
+        "Type 2 diabetes is commonly treated with Metformin.",
+        "Metformin is an effective drug for type 2 diabetes.",
+        "Metformin treats type 2 diabetes mellitus.",
+        "For type 2 diabetes, Metformin is frequently used."
+      ]
+    },
+    {
+      "fact": "Warfarin increases the risk of bleeding.",
+      "paraphrases": [
+        "Warfarin increases the risk of bleeding.",
+        "Bleeding risk is elevated with Warfarin use.",
+        "Warfarin can cause bleeding complications.",
+        "Patients on Warfarin have an increased bleeding risk.",
+        "Warfarin is associated with a higher risk of bleeding.",
+        "Bleeding may occur in patients taking Warfarin.",
+        "Warfarin therapy increases the chance of bleeding.",
+        "The use of Warfarin raises the risk of bleeding.",
+        "Warfarin has been linked to bleeding events.",
+        "Bleeding is a known adverse effect of Warfarin."
+      ]
+    },
+    {
+      "fact": "Ibuprofen can reduce fever and pain.",
+      "paraphrases": [
+        "Ibuprofen can reduce fever and pain.",
+        "Ibuprofen is used to lower fever and relieve pain.",
+        "Fever and pain may be reduced by Ibuprofen.",
+        "Ibuprofen helps reduce fever and alleviate pain.",
+        "Ibuprofen is effective for fever and pain relief.",
+        "Pain and fever can be treated with Ibuprofen.",
+        "Ibuprofen reduces fever and pain in patients.",
+        "Ibuprofen is taken to reduce fever and pain.",
+        "Fever and pain relief are effects of Ibuprofen.",
+        "Ibuprofen can bring down fever and reduce pain."
+      ]
+    },
+    {
+      "fact": "Acetaminophen is metabolized by the liver.",
+      "paraphrases": [
+        "Acetaminophen is metabolized by the liver.",
+        "The liver metabolizes Acetaminophen.",
+        "Acetaminophen metabolism occurs in the liver.",
+        "Liver enzymes metabolize Acetaminophen.",
+        "Acetaminophen is broken down by the liver.",
+        "Metabolism of Acetaminophen takes place in the liver.",
+        "The liver is responsible for Acetaminophen metabolism.",
+        "Acetaminophen is hepatically metabolized.",
+        "Liver function affects Acetaminophen metabolism.",
+        "Acetaminophen undergoes hepatic metabolism."
+      ]
+    },
+    {
+      "fact": "Statins lower cholesterol.",
+      "paraphrases": [
+        "Statins are used to lower cholesterol.",
+        "Cholesterol can be reduced by statins.",
+        "Statins reduce cholesterol levels.",
+        "Lowering cholesterol is an effect of statins.",
+        "Statins help lower LDL cholesterol.",
+        "Cholesterol-lowering drugs include statins.",
+        "Statins decrease cholesterol in the blood.",
+        "Taking statins can lower your cholesterol.",
+        "Statins are prescribed to reduce cholesterol.",
+        "Cholesterol is lowered by statin therapy."
+      ]
+    },
+    {
+      "fact": "Insulin regulates blood glucose.",
+      "paraphrases": [
+        "Insulin regulates blood glucose levels.",
+        "Blood glucose is regulated by insulin.",
+        "Insulin helps control blood sugar.",
+        "Glucose regulation depends on insulin.",
+        "Insulin is involved in glucose regulation.",
+        "Blood sugar is regulated by insulin.",
+        "Insulin controls glucose in the bloodstream.",
+        "Glucose levels are regulated by insulin.",
+        "Insulin plays a role in blood glucose regulation.",
+        "Regulation of blood glucose involves insulin."
+      ]
+    },
+    {
+      "fact": "Penicillin treats bacterial infections.",
+      "paraphrases": [
+        "Penicillin is used to treat bacterial infections.",
+        "Bacterial infections can be treated with penicillin.",
+        "Penicillin treats infections caused by bacteria.",
+        "Penicillin is an antibiotic for bacterial infections.",
+        "Bacterial infections are treated with penicillin.",
+        "Penicillin is effective against bacterial infections.",
+        "Treating bacterial infections is a use of penicillin.",
+        "Penicillin helps fight bacterial infections.",
+        "Bacterial infections may be treated with penicillin.",
+        "Penicillin is prescribed for bacterial infections."
+      ]
+    },
+    {
+      "fact": "Morphine relieves severe pain.",
+      "paraphrases": [
+        "Morphine relieves severe pain.",
+        "Severe pain can be relieved by morphine.",
+        "Morphine is used for severe pain relief.",
+        "Morphine provides relief from severe pain.",
+        "Severe pain is often treated with morphine.",
+        "Morphine is a strong pain reliever.",
+        "Pain relief from morphine is effective for severe pain.",
+        "Morphine helps relieve severe pain.",
+        "Severe pain may be managed with morphine.",
+        "Morphine is given to relieve severe pain."
+      ]
+    },
+    {
+      "fact": "Beta blockers reduce blood pressure.",
+      "paraphrases": [
+        "Beta blockers reduce blood pressure.",
+        "Blood pressure can be lowered by beta blockers.",
+        "Beta blockers are used to reduce blood pressure.",
+        "Lowering blood pressure is an effect of beta blockers.",
+        "Beta blockers help lower blood pressure.",
+        "Blood pressure is reduced with beta blocker therapy.",
+        "Beta blockers decrease blood pressure.",
+        "Taking beta blockers can reduce blood pressure.",
+        "Beta blockers are prescribed for high blood pressure.",
+        "Blood pressure reduction is achieved with beta blockers."
+      ]
+    },
+    {
+      "fact": "Anticoagulants prevent blood clots.",
+      "paraphrases": [
+        "Anticoagulants prevent blood clots.",
+        "Blood clots can be prevented by anticoagulants.",
+        "Anticoagulants are used to prevent clotting.",
+        "Prevention of blood clots is a use of anticoagulants.",
+        "Anticoagulants help prevent blood clots.",
+        "Blood clot prevention is an effect of anticoagulants.",
+        "Anticoagulants reduce the risk of blood clots.",
+        "Taking anticoagulants helps prevent clots.",
+        "Anticoagulants are prescribed to prevent blood clots.",
+        "Blood clots are less likely with anticoagulant therapy."
+      ]
+    },
+    {
+      "fact": "Corticosteroids reduce inflammation.",
+      "paraphrases": [
+        "Corticosteroids reduce inflammation.",
+        "Inflammation can be reduced by corticosteroids.",
+        "Corticosteroids are used to reduce inflammation.",
+        "Reducing inflammation is an effect of corticosteroids.",
+        "Corticosteroids help decrease inflammation.",
+        "Inflammation is reduced with corticosteroid treatment.",
+        "Corticosteroids decrease inflammation.",
+        "Corticosteroids are anti-inflammatory.",
+        "Inflammation may be controlled with corticosteroids.",
+        "Corticosteroids suppress inflammation."
+      ]
+    },
+    {
+      "fact": "ACE inhibitors treat hypertension.",
+      "paraphrases": [
+        "ACE inhibitors treat hypertension.",
+        "Hypertension can be treated with ACE inhibitors.",
+        "ACE inhibitors are used for hypertension.",
+        "ACE inhibitors help treat high blood pressure.",
+        "Hypertension is treated with ACE inhibitor therapy.",
+        "ACE inhibitors are prescribed for hypertension.",
+        "Treating hypertension is a use of ACE inhibitors.",
+        "ACE inhibitors lower blood pressure in hypertensive patients.",
+        "Hypertension may be managed with ACE inhibitors.",
+        "ACE inhibitors are effective for hypertension."
+      ]
+    },
+    {
+      "fact": "Metformin can cause lactic acidosis.",
+      "paraphrases": [
+        "Metformin can cause lactic acidosis.",
+        "Lactic acidosis may occur with metformin use.",
+        "Metformin is associated with lactic acidosis.",
+        "Lactic acidosis is a risk of metformin.",
+        "Metformin use can lead to lactic acidosis.",
+        "Lactic acidosis has been linked to metformin.",
+        "Metformin may cause lactic acidosis in some patients.",
+        "A rare side effect of metformin is lactic acidosis.",
+        "Lactic acidosis can be caused by metformin.",
+        "Metformin carries a risk of lactic acidosis."
+      ]
+    },
+    {
+      "fact": "Warfarin interacts with vitamin K.",
+      "paraphrases": [
+        "Warfarin interacts with vitamin K.",
+        "Vitamin K can interact with warfarin.",
+        "Warfarin and vitamin K interact.",
+        "There is an interaction between warfarin and vitamin K.",
+        "Vitamin K affects warfarin activity.",
+        "Warfarin efficacy is influenced by vitamin K.",
+        "Vitamin K intake can alter warfarin effect.",
+        "Warfarin interacts with vitamin K in the body.",
+        "Patients on warfarin should consider vitamin K.",
+        "Vitamin K and warfarin have a known interaction."
+      ]
+    },
+    {
+      "fact": "Aspirin prevents heart attacks.",
+      "paraphrases": [
+        "Aspirin prevents heart attacks.",
+        "Heart attacks can be prevented by aspirin.",
+        "Aspirin is used to prevent heart attacks.",
+        "Prevention of heart attack is a use of aspirin.",
+        "Aspirin helps prevent heart attacks.",
+        "Low-dose aspirin may reduce heart attack risk.",
+        "Aspirin reduces the risk of heart attack.",
+        "Heart attack prevention is an effect of aspirin.",
+        "Aspirin is taken to prevent heart attacks.",
+        "Aspirin therapy can prevent heart attacks."
+      ]
+    },
+    {
+      "fact": "Omeprazole reduces stomach acid.",
+      "paraphrases": [
+        "Omeprazole reduces stomach acid.",
+        "Stomach acid can be reduced by omeprazole.",
+        "Omeprazole is used to reduce stomach acid.",
+        "Omeprazole decreases gastric acid production.",
+        "Reducing stomach acid is an effect of omeprazole.",
+        "Omeprazole helps lower stomach acid.",
+        "Stomach acid is reduced with omeprazole.",
+        "Omeprazole is a proton pump inhibitor that reduces acid.",
+        "Acid reflux may be treated with omeprazole.",
+        "Omeprazole suppresses stomach acid."
+      ]
+    },
+    {
+      "fact": "Lithium treats bipolar disorder.",
+      "paraphrases": [
+        "Lithium treats bipolar disorder.",
+        "Bipolar disorder can be treated with lithium.",
+        "Lithium is used to treat bipolar disorder.",
+        "Lithium is a mood stabilizer for bipolar disorder.",
+        "Bipolar disorder is treated with lithium.",
+        "Lithium helps manage bipolar disorder.",
+        "Lithium is prescribed for bipolar disorder.",
+        "Treating bipolar disorder is a use of lithium.",
+        "Bipolar patients may take lithium.",
+        "Lithium is effective for bipolar disorder."
+      ]
+    },
+    {
+      "fact": "Levothyroxine treats hypothyroidism.",
+      "paraphrases": [
+        "Levothyroxine treats hypothyroidism.",
+        "Hypothyroidism can be treated with levothyroxine.",
+        "Levothyroxine is used for hypothyroidism.",
+        "Levothyroxine replaces thyroid hormone.",
+        "Hypothyroidism is treated with levothyroxine.",
+        "Levothyroxine is the standard treatment for hypothyroidism.",
+        "Patients with hypothyroidism take levothyroxine.",
+        "Levothyroxine helps treat underactive thyroid.",
+        "Hypothyroidism may be managed with levothyroxine.",
+        "Levothyroxine is prescribed for hypothyroidism."
+      ]
+    },
+    {
+      "fact": "Albuterol relieves asthma symptoms.",
+      "paraphrases": [
+        "Albuterol relieves asthma symptoms.",
+        "Asthma symptoms can be relieved by albuterol.",
+        "Albuterol is used to relieve asthma symptoms.",
+        "Albuterol is a rescue inhaler for asthma.",
+        "Asthma symptoms are relieved with albuterol.",
+        "Albuterol helps open airways in asthma.",
+        "Albuterol is used for acute asthma relief.",
+        "Relief of asthma symptoms is an effect of albuterol.",
+        "Asthma patients use albuterol for symptom relief.",
+        "Albuterol quickly relieves asthma symptoms."
+      ]
+    },
+    {
+      "fact": "Furosemide is a diuretic.",
+      "paraphrases": [
+        "Furosemide is a diuretic.",
+        "Furosemide is used as a diuretic.",
+        "Furosemide causes increased urine output.",
+        "Diuretic effect is a property of furosemide.",
+        "Furosemide is a loop diuretic.",
+        "Furosemide helps remove excess fluid.",
+        "As a diuretic, furosemide increases urination.",
+        "Furosemide is prescribed as a diuretic.",
+        "Furosemide has diuretic action.",
+        "The diuretic furosemide is used for fluid overload."
+      ]
+    },
+    {
+      "fact": "Digoxin increases heart contractility.",
+      "paraphrases": [
+        "Digoxin increases heart contractility.",
+        "Heart contractility is increased by digoxin.",
+        "Digoxin is used to increase heart contractility.",
+        "Digoxin strengthens heart contractions.",
+        "Increased contractility is an effect of digoxin.",
+        "Digoxin improves the heart's pumping ability.",
+        "Heart contractility may be improved with digoxin.",
+        "Digoxin is a positive inotrope.",
+        "Digoxin increases the force of heart contractions.",
+        "Contractility of the heart is increased by digoxin."
+      ]
+    },
+    {
+      "fact": "Prednisone suppresses the immune system.",
+      "paraphrases": [
+        "Prednisone suppresses the immune system.",
+        "The immune system can be suppressed by prednisone.",
+        "Prednisone is an immunosuppressant.",
+        "Immunosuppression is an effect of prednisone.",
+        "Prednisone reduces immune activity.",
+        "Prednisone is used to suppress immunity.",
+        "Immune suppression occurs with prednisone use.",
+        "Prednisone dampens the immune response.",
+        "Patients on prednisone may have suppressed immunity.",
+        "Prednisone has immunosuppressive effects."
+      ]
+    },
+    {
+      "fact": "Fluoxetine treats depression.",
+      "paraphrases": [
+        "Fluoxetine treats depression.",
+        "Depression can be treated with fluoxetine.",
+        "Fluoxetine is used to treat depression.",
+        "Fluoxetine is an antidepressant.",
+        "Depression is treated with fluoxetine.",
+        "Fluoxetine helps alleviate depression.",
+        "Fluoxetine is prescribed for depression.",
+        "Treating depression is a use of fluoxetine.",
+        "Depression may be managed with fluoxetine.",
+        "Fluoxetine is effective for depression."
+      ]
+    },
+    {
+      "fact": "Amoxicillin treats ear infections.",
+      "paraphrases": [
+        "Amoxicillin treats ear infections.",
+        "Ear infections can be treated with amoxicillin.",
+        "Amoxicillin is used for ear infections.",
+        "Amoxicillin is commonly prescribed for ear infections.",
+        "Ear infections are often treated with amoxicillin.",
+        "Amoxicillin helps clear ear infections.",
+        "Otitis media may be treated with amoxicillin.",
+        "Amoxicillin is an antibiotic for ear infections.",
+        "Ear infection treatment often includes amoxicillin.",
+        "Amoxicillin is effective against ear infections."
+      ]
+    },
+    {
+      "fact": "Atorvastatin lowers LDL cholesterol.",
+      "paraphrases": [
+        "Atorvastatin lowers LDL cholesterol.",
+        "LDL cholesterol can be lowered by atorvastatin.",
+        "Atorvastatin is used to lower LDL cholesterol.",
+        "Atorvastatin reduces LDL levels.",
+        "LDL cholesterol is reduced with atorvastatin.",
+        "Lowering LDL is an effect of atorvastatin.",
+        "Atorvastatin helps reduce bad cholesterol.",
+        "Atorvastatin is a statin that lowers LDL.",
+        "LDL cholesterol may be reduced with atorvastatin.",
+        "Atorvastatin decreases LDL cholesterol."
+      ]
+    },
+    {
+      "fact": "Sertraline treats anxiety.",
+      "paraphrases": [
+        "Sertraline treats anxiety.",
+        "Anxiety can be treated with sertraline.",
+        "Sertraline is used to treat anxiety.",
+        "Sertraline is prescribed for anxiety disorders.",
+        "Anxiety is often treated with sertraline.",
+        "Sertraline helps reduce anxiety.",
+        "Sertraline is an SSRI used for anxiety.",
+        "Anxiety disorders may be managed with sertraline.",
+        "Treating anxiety is a use of sertraline.",
+        "Sertraline is effective for anxiety."
+      ]
+    },
+    {
+      "fact": "Hydrochlorothiazide is a diuretic.",
+      "paraphrases": [
+        "Hydrochlorothiazide is a diuretic.",
+        "Hydrochlorothiazide is used as a diuretic.",
+        "Hydrochlorothiazide increases urine output.",
+        "As a diuretic, hydrochlorothiazide removes fluid.",
+        "Hydrochlorothiazide is a thiazide diuretic.",
+        "Hydrochlorothiazide helps lower blood pressure by diuresis.",
+        "Diuretic effect is a property of hydrochlorothiazide.",
+        "Hydrochlorothiazide is prescribed for fluid retention.",
+        "Hydrochlorothiazide has diuretic action.",
+        "The diuretic hydrochlorothiazide is commonly used."
+      ]
+    },
+    {
+      "fact": "Gabapentin treats nerve pain.",
+      "paraphrases": [
+        "Gabapentin treats nerve pain.",
+        "Nerve pain can be treated with gabapentin.",
+        "Gabapentin is used for neuropathic pain.",
+        "Gabapentin helps relieve nerve pain.",
+        "Nerve pain is often treated with gabapentin.",
+        "Gabapentin is prescribed for nerve pain.",
+        "Neuropathic pain may be managed with gabapentin.",
+        "Gabapentin is effective for nerve pain.",
+        "Treating nerve pain is a use of gabapentin.",
+        "Gabapentin reduces nerve pain."
+      ]
+    },
+    {
+      "fact": "Losartan treats high blood pressure.",
+      "paraphrases": [
+        "Losartan treats high blood pressure.",
+        "High blood pressure can be treated with losartan.",
+        "Losartan is used for hypertension.",
+        "Losartan is an ARB for blood pressure.",
+        "Hypertension is treated with losartan.",
+        "Losartan helps lower blood pressure.",
+        "Losartan is prescribed for high blood pressure.",
+        "Blood pressure may be controlled with losartan.",
+        "Losartan is effective for hypertension.",
+        "Treating high blood pressure is a use of losartan."
+      ]
+    },
+    {
+      "fact": "Metronidazole treats bacterial infections.",
+      "paraphrases": [
+        "Metronidazole treats bacterial infections.",
+        "Bacterial infections can be treated with metronidazole.",
+        "Metronidazole is an antibiotic for certain bacteria.",
+        "Metronidazole is used for anaerobic infections.",
+        "Bacterial infections are treated with metronidazole.",
+        "Metronidazole is effective against anaerobic bacteria.",
+        "Metronidazole helps fight bacterial infections.",
+        "Certain bacterial infections may be treated with metronidazole.",
+        "Metronidazole is prescribed for bacterial infections.",
+        "Treating bacterial infections is a use of metronidazole."
+      ]
+    },
+    {
+      "fact": "Sumatriptan treats migraine headaches.",
+      "paraphrases": [
+        "Sumatriptan treats migraine headaches.",
+        "Migraine headaches can be treated with sumatriptan.",
+        "Sumatriptan is used for acute migraine.",
+        "Sumatriptan relieves migraine attacks.",
+        "Migraine is often treated with sumatriptan.",
+        "Sumatriptan is a triptan for migraine.",
+        "Sumatriptan helps stop migraine headaches.",
+        "Patients with migraine may take sumatriptan.",
+        "Sumatriptan is prescribed for migraine.",
+        "Treating migraine is a use of sumatriptan."
+      ]
+    },
+    {
+      "fact": "Clopidogrel prevents blood clots.",
+      "paraphrases": [
+        "Clopidogrel prevents blood clots.",
+        "Blood clots can be prevented with clopidogrel.",
+        "Clopidogrel is an antiplatelet drug.",
+        "Clopidogrel reduces clot formation.",
+        "Prevention of clots is a use of clopidogrel.",
+        "Clopidogrel helps prevent arterial thrombosis.",
+        "Clopidogrel is used to prevent clots after stents.",
+        "Clopidogrel lowers the risk of clotting.",
+        "Patients at clot risk may take clopidogrel.",
+        "Clopidogrel is prescribed to prevent blood clots."
+      ]
+    },
+    {
+      "fact": "Montelukast treats asthma.",
+      "paraphrases": [
+        "Montelukast treats asthma.",
+        "Asthma can be treated with montelukast.",
+        "Montelukast is used for asthma control.",
+        "Montelukast is a leukotriene modifier for asthma.",
+        "Asthma patients may take montelukast.",
+        "Montelukast helps manage asthma.",
+        "Montelukast is prescribed for asthma.",
+        "Treating asthma is a use of montelukast.",
+        "Montelukast improves asthma symptoms.",
+        "Asthma maintenance may include montelukast."
+      ]
+    },
+    {
+      "fact": "Allopurinol treats gout.",
+      "paraphrases": [
+        "Allopurinol treats gout.",
+        "Gout can be treated with allopurinol.",
+        "Allopurinol lowers uric acid in gout.",
+        "Allopurinol is used for chronic gout.",
+        "Gout flares are prevented with allopurinol long-term.",
+        "Allopurinol is prescribed for hyperuricemia in gout.",
+        "Patients with gout may take allopurinol.",
+        "Allopurinol helps prevent gout attacks.",
+        "Treating gout is a use of allopurinol.",
+        "Gout management often includes allopurinol."
+      ]
+    },
+    {
+      "fact": "Carbamazepine treats epilepsy.",
+      "paraphrases": [
+        "Carbamazepine treats epilepsy.",
+        "Epilepsy can be treated with carbamazepine.",
+        "Carbamazepine is an anticonvulsant.",
+        "Carbamazepine is used for seizure control.",
+        "Epilepsy patients may take carbamazepine.",
+        "Carbamazepine helps reduce seizures.",
+        "Carbamazepine is prescribed for epilepsy.",
+        "Treating epilepsy is a use of carbamazepine.",
+        "Seizure disorders may be managed with carbamazepine.",
+        "Carbamazepine is effective for some epilepsies."
+      ]
+    },
+    {
+      "fact": "Finasteride treats benign prostatic hyperplasia.",
+      "paraphrases": [
+        "Finasteride treats benign prostatic hyperplasia.",
+        "BPH can be treated with finasteride.",
+        "Finasteride shrinks the prostate in BPH.",
+        "Finasteride is used for enlarged prostate.",
+        "Benign prostatic hyperplasia is treated with finasteride.",
+        "Finasteride improves urinary symptoms in BPH.",
+        "Patients with BPH may take finasteride.",
+        "Finasteride is prescribed for BPH.",
+        "Treating BPH is a use of finasteride.",
+        "Finasteride reduces prostate volume over time."
+      ]
+    },
+    {
+      "fact": "Azithromycin treats pneumonia.",
+      "paraphrases": [
+        "Azithromycin treats pneumonia.",
+        "Pneumonia can be treated with azithromycin.",
+        "Azithromycin is a macrolide for pneumonia.",
+        "Azithromycin is used for community-acquired pneumonia.",
+        "Pneumonia may be treated with azithromycin.",
+        "Azithromycin helps clear bacterial pneumonia.",
+        "Azithromycin is prescribed for pneumonia.",
+        "Treating pneumonia is a use of azithromycin.",
+        "Some pneumonia cases receive azithromycin.",
+        "Azithromycin is effective for certain pneumonias."
+      ]
+    },
+    {
+      "fact": "Isosorbide mononitrate treats angina.",
+      "paraphrases": [
+        "Isosorbide mononitrate treats angina.",
+        "Angina can be treated with isosorbide mononitrate.",
+        "Isosorbide mononitrate is a nitrate for angina.",
+        "Isosorbide mononitrate prevents angina episodes.",
+        "Stable angina is treated with isosorbide mononitrate.",
+        "Isosorbide mononitrate dilates coronary vessels.",
+        "Patients with angina may take isosorbide mononitrate.",
+        "Isosorbide mononitrate is prescribed for angina.",
+        "Treating angina is a use of isosorbide mononitrate.",
+        "Angina prophylaxis may include isosorbide mononitrate."
+      ]
+    },
+    {
+      "fact": "Spironolactone treats heart failure.",
+      "paraphrases": [
+        "Spironolactone treats heart failure.",
+        "Heart failure can be treated with spironolactone.",
+        "Spironolactone is an aldosterone antagonist in HFrEF.",
+        "Spironolactone reduces mortality in some heart failure.",
+        "Spironolactone is used for congestive heart failure.",
+        "Heart failure patients may take spironolactone.",
+        "Spironolactone helps manage fluid in heart failure.",
+        "Spironolactone is prescribed for heart failure.",
+        "Treating heart failure is a use of spironolactone.",
+        "Spironolactone improves outcomes in selected heart failure."
+      ]
+    },
+    {
+      "fact": "Methotrexate treats rheumatoid arthritis.",
+      "paraphrases": [
+        "Methotrexate treats rheumatoid arthritis.",
+        "Rheumatoid arthritis can be treated with methotrexate.",
+        "Methotrexate is a DMARD for RA.",
+        "Methotrexate is a first-line drug for rheumatoid arthritis.",
+        "RA is often treated with methotrexate.",
+        "Methotrexate slows joint damage in RA.",
+        "Patients with RA may take methotrexate.",
+        "Methotrexate is prescribed for rheumatoid arthritis.",
+        "Treating RA is a use of methotrexate.",
+        "Methotrexate reduces inflammation in rheumatoid arthritis."
+      ]
+    },
+    {
+      "fact": "Nitrofurantoin treats urinary tract infections.",
+      "paraphrases": [
+        "Nitrofurantoin treats urinary tract infections.",
+        "Urinary tract infections can be treated with nitrofurantoin.",
+        "Nitrofurantoin is used for uncomplicated UTIs.",
+        "Nitrofurantoin concentrates in urine.",
+        "UTIs are sometimes treated with nitrofurantoin.",
+        "Nitrofurantoin is an antibiotic for bladder infections.",
+        "Nitrofurantoin is prescribed for UTIs.",
+        "Treating UTIs is a use of nitrofurantoin.",
+        "Simple cystitis may be treated with nitrofurantoin.",
+        "Nitrofurantoin is effective for many UTIs."
+      ]
+    },
+    {
+      "fact": "Haloperidol treats schizophrenia.",
+      "paraphrases": [
+        "Haloperidol treats schizophrenia.",
+        "Schizophrenia can be treated with haloperidol.",
+        "Haloperidol is an antipsychotic.",
+        "Haloperidol is used for psychosis in schizophrenia.",
+        "Schizophrenia patients may receive haloperidol.",
+        "Haloperidol reduces psychotic symptoms.",
+        "Haloperidol is prescribed for schizophrenia.",
+        "Treating schizophrenia is a use of haloperidol.",
+        "Acute agitation in schizophrenia may use haloperidol.",
+        "Haloperidol has long been used for schizophrenia."
+      ]
+    },
+    {
+      "fact": "Phenytoin treats seizures.",
+      "paraphrases": [
+        "Phenytoin treats seizures.",
+        "Seizures can be treated with phenytoin.",
+        "Phenytoin is an antiepileptic drug.",
+        "Phenytoin is used for tonic-clonic seizures.",
+        "Seizure disorders may be treated with phenytoin.",
+        "Phenytoin helps control seizures.",
+        "Phenytoin is prescribed for epilepsy seizures.",
+        "Treating seizures is a use of phenytoin.",
+        "Some epilepsy patients take phenytoin.",
+        "Phenytoin stabilizes neuronal firing in seizures."
+      ]
+    },
+    {
+      "fact": "Doxycycline treats Lyme disease.",
+      "paraphrases": [
+        "Doxycycline treats Lyme disease.",
+        "Lyme disease can be treated with doxycycline.",
+        "Doxycycline is first-line for early Lyme.",
+        "Doxycycline is used for Borrelia infection.",
+        "Lyme disease often receives doxycycline.",
+        "Doxycycline is an antibiotic for Lyme.",
+        "Doxycycline is prescribed for Lyme disease.",
+        "Treating Lyme disease is a use of doxycycline.",
+        "Early Lyme may be cured with doxycycline.",
+        "Doxycycline covers tick-borne Lyme in many cases."
+      ]
+    },
+    {
+      "fact": "Esomeprazole treats gastroesophageal reflux disease.",
+      "paraphrases": [
+        "Esomeprazole treats gastroesophageal reflux disease.",
+        "GERD can be treated with esomeprazole.",
+        "Esomeprazole is a PPI for acid reflux.",
+        "Esomeprazole reduces stomach acid in GERD.",
+        "GERD patients may take esomeprazole.",
+        "Esomeprazole heals esophagitis from reflux.",
+        "Esomeprazole is prescribed for GERD.",
+        "Treating GERD is a use of esomeprazole.",
+        "Heartburn from GERD may improve with esomeprazole.",
+        "Esomeprazole suppresses acid in GERD."
+      ]
+    },
+    {
+      "fact": "Tamsulosin treats benign prostatic hyperplasia.",
+      "paraphrases": [
+        "Tamsulosin treats benign prostatic hyperplasia.",
+        "BPH can be treated with tamsulosin.",
+        "Tamsulosin relaxes the prostate smooth muscle.",
+        "Tamsulosin improves urine flow in BPH.",
+        "Tamsulosin is an alpha-blocker for BPH.",
+        "Patients with BPH may take tamsulosin.",
+        "Tamsulosin is prescribed for enlarged prostate symptoms.",
+        "Treating BPH is a use of tamsulosin.",
+        "Urinary symptoms of BPH may improve with tamsulosin.",
+        "Tamsulosin is commonly used for BPH."
+      ]
+    },
+    {
+      "fact": "Rivaroxaban prevents stroke in atrial fibrillation.",
+      "paraphrases": [
+        "Rivaroxaban prevents stroke in atrial fibrillation.",
+        "Stroke risk in AF can be reduced with rivaroxaban.",
+        "Rivaroxaban is an anticoagulant for AF.",
+        "Rivaroxaban is used for stroke prevention in atrial fibrillation.",
+        "Atrial fibrillation may be treated with rivaroxaban for stroke risk.",
+        "Rivaroxaban lowers stroke risk in nonvalvular AF.",
+        "Patients with AF may take rivaroxaban.",
+        "Rivaroxaban is prescribed to prevent AF-related stroke.",
+        "Preventing stroke in AF is a use of rivaroxaban.",
+        "Rivaroxaban is an alternative to warfarin in some AF patients."
+      ]
+    },
+    {
+      "fact": "Clindamycin treats skin infections.",
+      "paraphrases": [
+        "Clindamycin treats skin infections.",
+        "Skin infections can be treated with clindamycin.",
+        "Clindamycin is used for cellulitis and abscesses.",
+        "Clindamycin is an antibiotic for skin and soft tissue.",
+        "Bacterial skin infections may receive clindamycin.",
+        "Clindamycin is prescribed for skin infections.",
+        "Treating skin infections is a use of clindamycin.",
+        "Some MRSA skin infections use clindamycin.",
+        "Clindamycin helps clear bacterial skin infections.",
+        "Clindamycin is effective for certain skin infections."
+      ]
+    },
+    {
+      "fact": "Bisoprolol treats heart failure.",
+      "paraphrases": [
+        "Bisoprolol treats heart failure.",
+        "Heart failure can be treated with bisoprolol.",
+        "Bisoprolol is a beta blocker used in HFrEF.",
+        "Bisoprolol improves survival in some heart failure.",
+        "Heart failure patients may take bisoprolol.",
+        "Bisoprolol is prescribed for chronic heart failure.",
+        "Treating heart failure is a use of bisoprolol.",
+        "Bisoprolol reduces heart rate in heart failure.",
+        "Guideline-directed therapy may include bisoprolol.",
+        "Bisoprolol helps the failing heart over time."
+      ]
+    }
+  ]
+}

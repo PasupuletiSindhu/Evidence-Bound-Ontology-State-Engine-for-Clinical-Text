@@ -1,0 +1,4652 @@
+{
+  "mode": "qa_downstream",
+  "config": {
+    "qa_file": "/home/stu1/s7/sp7289/Capstone/results/qa_aligned_100.json",
+    "paraphrase_results": "/home/stu1/s7/sp7289/Capstone/results/paraphrase_results.json",
+    "baselines": [
+      "baseline_1",
+      "baseline_2",
+      "baseline_3"
+    ]
+  },
+  "relation_aliases": {
+    "interacts_with": [
+      "ALTERS",
+      "EFFECT",
+      "INTERACTS_WITH",
+      "interacts_with"
+    ],
+    "reduces": [
+      "\"ANTI-INFLAMMATORY\"",
+      "\"ARE\"",
+      "\"BETA_BLOCKERS\"",
+      "\"DECREASE\"",
+      "\"DECREASE_INFLAMMATION\"",
+      "\"EFFECTS\"",
+      "\"FOR\"",
+      "\"INFLAMMATION\"",
+      "\"LOWER\"",
+      "\"MANAGED\"",
+      "\"OBJECT\"",
+      "\"PAIN_RELIEF\"",
+      "\"REDUCED\"",
+      "\"REDUCE_INFLAMMATION\"",
+      "\"RELATION\"",
+      "\"RELIEF\"",
+      "\"SUBJECT\"",
+      "\"USE\"",
+      "FEVER",
+      "IS_TAKEN",
+      "LOWERED_BY",
+      "LOWERS",
+      "LOWERS_CHOLESTEROL",
+      "PAIN",
+      "QUICKLY",
+      "REDUCED",
+      "REDUCES",
+      "REDUCES_PAIN",
+      "RELATED_TO",
+      "RELIEF",
+      "RELIEVES",
+      "reduces"
+    ],
+    "causes": [
+      "\"IS\"",
+      "CAUSES",
+      "CONTROLS",
+      "DIURETIC",
+      "DIURETIC_ACTION",
+      "HAS",
+      "IN",
+      "INSULIN",
+      "IS_USED_AS_A",
+      "LACTIC_ACIDOSIS",
+      "OBJECT",
+      "REGULATES",
+      "REGULATES_BLOOD_GLUCOSE",
+      "SIDE_EFFECT",
+      "SUPPRESS",
+      "SUPPRESSES",
+      "TAKING",
+      "causes"
+    ],
+    "prevents": [
+      "\"ALTERNATIVE\"",
+      "\"HELPS_PREVENT_ARTERIAL_THROMBOSIS\"",
+      "\"IN\"",
+      "\"IS_AN\"",
+      "\"PREVENT\"",
+      "\"PREVENTS\"",
+      "\"REDUCTION\"",
+      "IS_A_CONDITION",
+      "IS_A_MEDICAL_CONDITION",
+      "IS_PRESCRIBED_TO",
+      "IS_USED_FOR_STROKE_PREVENTION",
+      "PREVENT",
+      "PREVENTION",
+      "PREVENTS",
+      "TAKEN",
+      "USE",
+      "prevents"
+    ],
+    "metabolized_by": [
+      "IS_BROKEN_DOWN_BY_THE_LIVER",
+      "IS_METABOLIZED_BY_THE_LIVER",
+      "METABOLISM",
+      "METABOLIZES",
+      "metabolized_by"
+    ],
+    "treats": [
+      "\"COVERS\"",
+      "\"EFFECTIVE\"",
+      "\"FIRST-LINE\"",
+      "\"IMPROVES\"",
+      "\"ISOSORBIDE_MONONITRATE\"",
+      "\"IS_A\"",
+      "\"IS_USED\"",
+      "\"IS_USED_FOR\"",
+      "\"PAIN\"",
+      "\"PRESCRIBED\"",
+      "\"REDUCES\"",
+      "\"RELIEVES\"",
+      "\"TREATMENT\"",
+      "\"TREATS\"",
+      "\"USED\"",
+      "ANGINA",
+      "ANTIBIOTIC",
+      "ARE",
+      "CONCENTRATES",
+      "CONCENTRATION",
+      "CONTROLLED",
+      "DILATES",
+      "DISEASE",
+      "FROM",
+      "GOUT",
+      "HEALS",
+      "HELPS",
+      "IMPROVES",
+      "INFECTION",
+      "IS",
+      "ISOSORBIDE_MONONITRATE",
+      "IS_A",
+      "IS_EFFECTIVE",
+      "IS_EFFECTIVE_FOR",
+      "IS_MANAGED",
+      "IS_MANAGED_WITH",
+      "IS_TREATED_BY",
+      "IS_TREATED_WITH",
+      "IS_TREATMENT",
+      "IS_USED",
+      "IS_USED_FOR",
+      "IS_USED_IN",
+      "IS_USED_TO_TREAT",
+      "REPLACES",
+      "SKIN_INFECTION",
+      "SYMPTOM",
+      "TREATED",
+      "TREATED_BY",
+      "TREATED_WITH",
+      "TREATMENT",
+      "TREATS",
+      "treats"
+    ],
+    "increases": [
+      "increases"
+    ]
+  },
+  "num_questions": 98,
+  "baseline_1": {
+    "metrics": {
+      "exact_match": 0.04081632653061224,
+      "semantic_hit": 0.04081632653061224,
+      "top1_accuracy": 0.030612244897959183,
+      "mrr": 0.03571428571428571,
+      "recall_at_1": 0.04081632653061224,
+      "num_questions": 98
+    },
+    "per_question": [
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "heart attacks",
+          "gastric bleeding",
+          "Gastric bleeding",
+          "heart attack",
+          "bleeding in the stomach",
+          "gastric hemorrhage",
+          "Gastric hemorrhage",
+          "Heart attack",
+          "Heart attacks",
+          "stomach bleeding"
+        ],
+        "predicted": [
+          "heart attacks",
+          "gastric bleeding",
+          "Gastric bleeding",
+          "heart attack",
+          "bleeding in the stomach",
+          "gastric hemorrhage",
+          "Gastric hemorrhage",
+          "Heart attack",
+          "Heart attacks",
+          "stomach bleeding"
+        ],
+        "top1_prediction": "heart attacks",
+        "top1_correct": false,
+        "reciprocal_rank": 0.5,
+        "gold": "gastric bleeding",
+        "best_similarity": 1.0,
+        "question": "What does aspirin cause?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "Aspirin"
+        ],
+        "predicted": [
+          "Aspirin"
+        ],
+        "top1_prediction": "Aspirin",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "aspirin",
+        "best_similarity": 1.0,
+        "question": "What causes gastric bleeding?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "type 2 diabetes",
+        "best_similarity": 0.0,
+        "question": "What does metformin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "metformin",
+        "best_similarity": 0.0,
+        "question": "What drug treats type 2 diabetes?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bleeding",
+        "best_similarity": 0.0,
+        "question": "What does warfarin increase?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "warfarin",
+        "best_similarity": 0.0,
+        "question": "What increases bleeding?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "fever and pain",
+        "best_similarity": 0.0,
+        "question": "What does ibuprofen reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "ibuprofen",
+        "best_similarity": 0.0,
+        "question": "What reduces fever and pain?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "liver",
+        "best_similarity": 0.0,
+        "question": "Which organ metabolizes acetaminophen?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "acetaminophen",
+        "best_similarity": 0.0,
+        "question": "What drug is metabolized by the liver?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "cholesterol",
+        "best_similarity": 0.0,
+        "question": "What does statins reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "statins",
+        "best_similarity": 0.0,
+        "question": "What reduces cholesterol?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "blood glucose",
+        "best_similarity": 0.0,
+        "question": "What does insulin cause?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "insulin",
+        "best_similarity": 0.0,
+        "question": "What causes blood glucose?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bacterial infections",
+        "best_similarity": 0.0,
+        "question": "What does penicillin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "penicillin",
+        "best_similarity": 0.0,
+        "question": "What drug treats bacterial infections?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "severe pain",
+        "best_similarity": 0.0,
+        "question": "What does morphine reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "morphine",
+        "best_similarity": 0.0,
+        "question": "What reduces severe pain?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "blood pressure",
+        "best_similarity": 0.0,
+        "question": "What does beta blockers reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "beta blockers",
+        "best_similarity": 0.0,
+        "question": "What reduces blood pressure?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "blood clots",
+        "best_similarity": 0.0,
+        "question": "What does anticoagulants prevent?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "anticoagulants",
+        "best_similarity": 0.0,
+        "question": "What prevents blood clots?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "inflammation",
+        "best_similarity": 0.0,
+        "question": "What does corticosteroids reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "corticosteroids",
+        "best_similarity": 0.0,
+        "question": "What reduces inflammation?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "lactic acidosis",
+          "type 2 diabetes",
+          "Lactic acidosis",
+          "Type 2 diabetes",
+          "type 2 diabetes mellitus"
+        ],
+        "predicted": [
+          "lactic acidosis",
+          "type 2 diabetes",
+          "Lactic acidosis",
+          "Type 2 diabetes",
+          "type 2 diabetes mellitus"
+        ],
+        "top1_prediction": "lactic acidosis",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "lactic acidosis",
+        "best_similarity": 1.0,
+        "question": "What does metformin cause?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "Metformin",
+          "metformin"
+        ],
+        "predicted": [
+          "Metformin",
+          "metformin"
+        ],
+        "top1_prediction": "Metformin",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "metformin",
+        "best_similarity": 1.0,
+        "question": "What causes lactic acidosis?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "vitamin k",
+        "best_similarity": 0.0,
+        "question": "What does warfarin interact with?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "warfarin",
+        "best_similarity": 0.0,
+        "question": "What interacts with vitamin k?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "heart attacks",
+        "best_similarity": 0.0,
+        "question": "What does aspirin prevent?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "aspirin",
+        "best_similarity": 0.0,
+        "question": "What prevents heart attacks?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "stomach acid",
+        "best_similarity": 0.0,
+        "question": "What does omeprazole reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "omeprazole",
+        "best_similarity": 0.0,
+        "question": "What reduces stomach acid?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bipolar disorder",
+        "best_similarity": 0.0,
+        "question": "What does lithium treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "lithium",
+        "best_similarity": 0.0,
+        "question": "What drug treats bipolar disorder?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "hypothyroidism",
+        "best_similarity": 0.0,
+        "question": "What does levothyroxine treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "levothyroxine",
+        "best_similarity": 0.0,
+        "question": "What drug treats hypothyroidism?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "asthma symptoms",
+        "best_similarity": 0.0,
+        "question": "What does albuterol reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "albuterol",
+        "best_similarity": 0.0,
+        "question": "What reduces asthma symptoms?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "urination"
+        ],
+        "predicted": [
+          "urination"
+        ],
+        "top1_prediction": "urination",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "diuretic",
+        "best_similarity": 0.0,
+        "question": "What does furosemide cause?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "furosemide",
+        "best_similarity": 0.0,
+        "question": "What causes diuretic?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "heart contractility",
+        "best_similarity": 0.0,
+        "question": "What does digoxin increase?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "digoxin",
+        "best_similarity": 0.0,
+        "question": "What increases heart contractility?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "Immune suppression"
+        ],
+        "predicted": [
+          "Immune suppression"
+        ],
+        "top1_prediction": "Immune suppression",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "the immune system",
+        "best_similarity": 0.0,
+        "question": "What does prednisone cause?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "prednisone",
+        "best_similarity": 0.0,
+        "question": "What causes the immune system?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "depression",
+        "best_similarity": 0.0,
+        "question": "What does fluoxetine treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "fluoxetine",
+        "best_similarity": 0.0,
+        "question": "What drug treats depression?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "ear infections",
+        "best_similarity": 0.0,
+        "question": "What does amoxicillin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "amoxicillin",
+        "best_similarity": 0.0,
+        "question": "What drug treats ear infections?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "ldl cholesterol",
+        "best_similarity": 0.0,
+        "question": "What does atorvastatin reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "atorvastatin",
+        "best_similarity": 0.0,
+        "question": "What reduces ldl cholesterol?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "anxiety",
+        "best_similarity": 0.0,
+        "question": "What does sertraline treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "sertraline",
+        "best_similarity": 0.0,
+        "question": "What drug treats anxiety?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "fluid retention",
+          "thiazide diuretic"
+        ],
+        "predicted": [
+          "fluid retention",
+          "thiazide diuretic"
+        ],
+        "top1_prediction": "fluid retention",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "diuretic",
+        "best_similarity": 0.0,
+        "question": "What does hydrochlorothiazide cause?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "hydrochlorothiazide",
+        "best_similarity": 0.0,
+        "question": "What causes diuretic?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "nerve pain",
+        "best_similarity": 0.0,
+        "question": "What does gabapentin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "gabapentin",
+        "best_similarity": 0.0,
+        "question": "What drug treats nerve pain?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "high blood pressure",
+        "best_similarity": 0.0,
+        "question": "What does losartan treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "losartan",
+        "best_similarity": 0.0,
+        "question": "What drug treats high blood pressure?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bacterial infections",
+        "best_similarity": 0.0,
+        "question": "What does metronidazole treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "metronidazole",
+        "best_similarity": 0.0,
+        "question": "What drug treats bacterial infections?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "migraine headaches",
+        "best_similarity": 0.0,
+        "question": "What does sumatriptan treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "sumatriptan",
+        "best_similarity": 0.0,
+        "question": "What drug treats migraine headaches?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "blood clots",
+        "best_similarity": 0.0,
+        "question": "What does clopidogrel prevent?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "clopidogrel",
+        "best_similarity": 0.0,
+        "question": "What prevents blood clots?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "asthma",
+        "best_similarity": 0.0,
+        "question": "What does montelukast treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "montelukast",
+        "best_similarity": 0.0,
+        "question": "What drug treats asthma?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "gout",
+        "best_similarity": 0.0,
+        "question": "What does allopurinol treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "allopurinol",
+        "best_similarity": 0.0,
+        "question": "What drug treats gout?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "epilepsy",
+        "best_similarity": 0.0,
+        "question": "What does carbamazepine treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "carbamazepine",
+        "best_similarity": 0.0,
+        "question": "What drug treats epilepsy?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "benign prostatic hyperplasia",
+        "best_similarity": 0.0,
+        "question": "What does finasteride treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "finasteride",
+        "best_similarity": 0.0,
+        "question": "What drug treats benign prostatic hyperplasia?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "pneumonia",
+        "best_similarity": 0.0,
+        "question": "What does azithromycin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "azithromycin",
+        "best_similarity": 0.0,
+        "question": "What drug treats pneumonia?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "angina",
+        "best_similarity": 0.0,
+        "question": "What does isosorbide mononitrate treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "isosorbide mononitrate",
+        "best_similarity": 0.0,
+        "question": "What drug treats angina?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "heart failure",
+        "best_similarity": 0.0,
+        "question": "What does spironolactone treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "spironolactone",
+        "best_similarity": 0.0,
+        "question": "What drug treats heart failure?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "rheumatoid arthritis",
+        "best_similarity": 0.0,
+        "question": "What does methotrexate treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "methotrexate",
+        "best_similarity": 0.0,
+        "question": "What drug treats rheumatoid arthritis?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "urinary tract infections",
+        "best_similarity": 0.0,
+        "question": "What does nitrofurantoin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "nitrofurantoin",
+        "best_similarity": 0.0,
+        "question": "What drug treats urinary tract infections?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "schizophrenia",
+        "best_similarity": 0.0,
+        "question": "What does haloperidol treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "haloperidol",
+        "best_similarity": 0.0,
+        "question": "What drug treats schizophrenia?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "seizures",
+        "best_similarity": 0.0,
+        "question": "What does phenytoin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "phenytoin",
+        "best_similarity": 0.0,
+        "question": "What drug treats seizures?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "lyme disease",
+        "best_similarity": 0.0,
+        "question": "What does doxycycline treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "doxycycline",
+        "best_similarity": 0.0,
+        "question": "What drug treats lyme disease?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "gastroesophageal reflux disease",
+        "best_similarity": 0.0,
+        "question": "What does esomeprazole treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "esomeprazole",
+        "best_similarity": 0.0,
+        "question": "What drug treats gastroesophageal reflux disease?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "benign prostatic hyperplasia",
+        "best_similarity": 0.0,
+        "question": "What does tamsulosin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "tamsulosin",
+        "best_similarity": 0.0,
+        "question": "What drug treats benign prostatic hyperplasia?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "stroke in atrial fibrillation",
+        "best_similarity": 0.0,
+        "question": "What does rivaroxaban prevent?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "rivaroxaban",
+        "best_similarity": 0.0,
+        "question": "What prevents stroke in atrial fibrillation?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "skin infections",
+        "best_similarity": 0.0,
+        "question": "What does clindamycin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "clindamycin",
+        "best_similarity": 0.0,
+        "question": "What drug treats skin infections?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "heart failure",
+        "best_similarity": 0.0,
+        "question": "What does bisoprolol treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bisoprolol",
+        "best_similarity": 0.0,
+        "question": "What drug treats heart failure?"
+      }
+    ]
+  },
+  "baseline_2": {
+    "metrics": {
+      "exact_match": 0.04081632653061224,
+      "semantic_hit": 0.04081632653061224,
+      "top1_accuracy": 0.030612244897959183,
+      "mrr": 0.03571428571428571,
+      "recall_at_1": 0.04081632653061224,
+      "num_questions": 98
+    },
+    "per_question": [
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "heart attacks",
+          "gastric bleeding",
+          "Gastric bleeding",
+          "heart attack",
+          "bleeding in the stomach",
+          "gastric hemorrhage",
+          "Gastric hemorrhage",
+          "Heart attack",
+          "Heart attacks",
+          "stomach bleeding"
+        ],
+        "predicted": [
+          "heart attacks",
+          "gastric bleeding",
+          "Gastric bleeding",
+          "heart attack",
+          "bleeding in the stomach",
+          "gastric hemorrhage",
+          "Gastric hemorrhage",
+          "Heart attack",
+          "Heart attacks",
+          "stomach bleeding"
+        ],
+        "top1_prediction": "heart attacks",
+        "top1_correct": false,
+        "reciprocal_rank": 0.5,
+        "gold": "gastric bleeding",
+        "best_similarity": 1.0,
+        "question": "What does aspirin cause?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "MESH:D001241"
+        ],
+        "predicted": [
+          "MESH:D001241"
+        ],
+        "top1_prediction": "MESH:D001241",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "aspirin",
+        "best_similarity": 1.0,
+        "question": "What causes gastric bleeding?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "type 2 diabetes",
+        "best_similarity": 0.0,
+        "question": "What does metformin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "metformin",
+        "best_similarity": 0.0,
+        "question": "What drug treats type 2 diabetes?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bleeding",
+        "best_similarity": 0.0,
+        "question": "What does warfarin increase?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "warfarin",
+        "best_similarity": 0.0,
+        "question": "What increases bleeding?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "fever and pain",
+        "best_similarity": 0.0,
+        "question": "What does ibuprofen reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "ibuprofen",
+        "best_similarity": 0.0,
+        "question": "What reduces fever and pain?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "liver",
+        "best_similarity": 0.0,
+        "question": "Which organ metabolizes acetaminophen?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "acetaminophen",
+        "best_similarity": 0.0,
+        "question": "What drug is metabolized by the liver?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "cholesterol",
+        "best_similarity": 0.0,
+        "question": "What does statins reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "statins",
+        "best_similarity": 0.0,
+        "question": "What reduces cholesterol?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "blood glucose",
+        "best_similarity": 0.0,
+        "question": "What does insulin cause?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "insulin",
+        "best_similarity": 0.0,
+        "question": "What causes blood glucose?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bacterial infections",
+        "best_similarity": 0.0,
+        "question": "What does penicillin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "penicillin",
+        "best_similarity": 0.0,
+        "question": "What drug treats bacterial infections?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "severe pain",
+        "best_similarity": 0.0,
+        "question": "What does morphine reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "morphine",
+        "best_similarity": 0.0,
+        "question": "What reduces severe pain?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "blood pressure",
+        "best_similarity": 0.0,
+        "question": "What does beta blockers reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "beta blockers",
+        "best_similarity": 0.0,
+        "question": "What reduces blood pressure?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "blood clots",
+        "best_similarity": 0.0,
+        "question": "What does anticoagulants prevent?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "anticoagulants",
+        "best_similarity": 0.0,
+        "question": "What prevents blood clots?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "inflammation",
+        "best_similarity": 0.0,
+        "question": "What does corticosteroids reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "corticosteroids",
+        "best_similarity": 0.0,
+        "question": "What reduces inflammation?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "D000140",
+          "D003924",
+          "type 2 diabetes mellitus"
+        ],
+        "predicted": [
+          "D000140",
+          "D003924",
+          "type 2 diabetes mellitus"
+        ],
+        "top1_prediction": "D000140",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "lactic acidosis",
+        "best_similarity": 1.0,
+        "question": "What does metformin cause?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "MESH:D008687"
+        ],
+        "predicted": [
+          "MESH:D008687"
+        ],
+        "top1_prediction": "MESH:D008687",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "metformin",
+        "best_similarity": 1.0,
+        "question": "What causes lactic acidosis?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "vitamin k",
+        "best_similarity": 0.0,
+        "question": "What does warfarin interact with?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "warfarin",
+        "best_similarity": 0.0,
+        "question": "What interacts with vitamin k?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "heart attacks",
+        "best_similarity": 0.0,
+        "question": "What does aspirin prevent?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "aspirin",
+        "best_similarity": 0.0,
+        "question": "What prevents heart attacks?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "stomach acid",
+        "best_similarity": 0.0,
+        "question": "What does omeprazole reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "omeprazole",
+        "best_similarity": 0.0,
+        "question": "What reduces stomach acid?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bipolar disorder",
+        "best_similarity": 0.0,
+        "question": "What does lithium treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "lithium",
+        "best_similarity": 0.0,
+        "question": "What drug treats bipolar disorder?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "hypothyroidism",
+        "best_similarity": 0.0,
+        "question": "What does levothyroxine treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "levothyroxine",
+        "best_similarity": 0.0,
+        "question": "What drug treats hypothyroidism?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "asthma symptoms",
+        "best_similarity": 0.0,
+        "question": "What does albuterol reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "albuterol",
+        "best_similarity": 0.0,
+        "question": "What reduces asthma symptoms?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "urination"
+        ],
+        "predicted": [
+          "urination"
+        ],
+        "top1_prediction": "urination",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "diuretic",
+        "best_similarity": 0.0,
+        "question": "What does furosemide cause?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "furosemide",
+        "best_similarity": 0.0,
+        "question": "What causes diuretic?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "heart contractility",
+        "best_similarity": 0.0,
+        "question": "What does digoxin increase?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "digoxin",
+        "best_similarity": 0.0,
+        "question": "What increases heart contractility?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "Immune suppression"
+        ],
+        "predicted": [
+          "Immune suppression"
+        ],
+        "top1_prediction": "Immune suppression",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "the immune system",
+        "best_similarity": 0.0,
+        "question": "What does prednisone cause?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "prednisone",
+        "best_similarity": 0.0,
+        "question": "What causes the immune system?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "depression",
+        "best_similarity": 0.0,
+        "question": "What does fluoxetine treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "fluoxetine",
+        "best_similarity": 0.0,
+        "question": "What drug treats depression?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "ear infections",
+        "best_similarity": 0.0,
+        "question": "What does amoxicillin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "amoxicillin",
+        "best_similarity": 0.0,
+        "question": "What drug treats ear infections?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "ldl cholesterol",
+        "best_similarity": 0.0,
+        "question": "What does atorvastatin reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "atorvastatin",
+        "best_similarity": 0.0,
+        "question": "What reduces ldl cholesterol?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "anxiety",
+        "best_similarity": 0.0,
+        "question": "What does sertraline treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "sertraline",
+        "best_similarity": 0.0,
+        "question": "What drug treats anxiety?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "fluid retention",
+          "thiazide diuretic"
+        ],
+        "predicted": [
+          "fluid retention",
+          "thiazide diuretic"
+        ],
+        "top1_prediction": "fluid retention",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "diuretic",
+        "best_similarity": 0.0,
+        "question": "What does hydrochlorothiazide cause?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "hydrochlorothiazide",
+        "best_similarity": 0.0,
+        "question": "What causes diuretic?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "nerve pain",
+        "best_similarity": 0.0,
+        "question": "What does gabapentin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "gabapentin",
+        "best_similarity": 0.0,
+        "question": "What drug treats nerve pain?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "high blood pressure",
+        "best_similarity": 0.0,
+        "question": "What does losartan treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "losartan",
+        "best_similarity": 0.0,
+        "question": "What drug treats high blood pressure?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bacterial infections",
+        "best_similarity": 0.0,
+        "question": "What does metronidazole treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "metronidazole",
+        "best_similarity": 0.0,
+        "question": "What drug treats bacterial infections?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "migraine headaches",
+        "best_similarity": 0.0,
+        "question": "What does sumatriptan treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "sumatriptan",
+        "best_similarity": 0.0,
+        "question": "What drug treats migraine headaches?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "blood clots",
+        "best_similarity": 0.0,
+        "question": "What does clopidogrel prevent?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "clopidogrel",
+        "best_similarity": 0.0,
+        "question": "What prevents blood clots?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "asthma",
+        "best_similarity": 0.0,
+        "question": "What does montelukast treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "montelukast",
+        "best_similarity": 0.0,
+        "question": "What drug treats asthma?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "gout",
+        "best_similarity": 0.0,
+        "question": "What does allopurinol treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "allopurinol",
+        "best_similarity": 0.0,
+        "question": "What drug treats gout?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "epilepsy",
+        "best_similarity": 0.0,
+        "question": "What does carbamazepine treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "carbamazepine",
+        "best_similarity": 0.0,
+        "question": "What drug treats epilepsy?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "benign prostatic hyperplasia",
+        "best_similarity": 0.0,
+        "question": "What does finasteride treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "finasteride",
+        "best_similarity": 0.0,
+        "question": "What drug treats benign prostatic hyperplasia?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "pneumonia",
+        "best_similarity": 0.0,
+        "question": "What does azithromycin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "azithromycin",
+        "best_similarity": 0.0,
+        "question": "What drug treats pneumonia?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "angina",
+        "best_similarity": 0.0,
+        "question": "What does isosorbide mononitrate treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "isosorbide mononitrate",
+        "best_similarity": 0.0,
+        "question": "What drug treats angina?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "heart failure",
+        "best_similarity": 0.0,
+        "question": "What does spironolactone treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "spironolactone",
+        "best_similarity": 0.0,
+        "question": "What drug treats heart failure?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "rheumatoid arthritis",
+        "best_similarity": 0.0,
+        "question": "What does methotrexate treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "methotrexate",
+        "best_similarity": 0.0,
+        "question": "What drug treats rheumatoid arthritis?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "urinary tract infections",
+        "best_similarity": 0.0,
+        "question": "What does nitrofurantoin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "nitrofurantoin",
+        "best_similarity": 0.0,
+        "question": "What drug treats urinary tract infections?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "schizophrenia",
+        "best_similarity": 0.0,
+        "question": "What does haloperidol treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "haloperidol",
+        "best_similarity": 0.0,
+        "question": "What drug treats schizophrenia?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "seizures",
+        "best_similarity": 0.0,
+        "question": "What does phenytoin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "phenytoin",
+        "best_similarity": 0.0,
+        "question": "What drug treats seizures?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "lyme disease",
+        "best_similarity": 0.0,
+        "question": "What does doxycycline treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "doxycycline",
+        "best_similarity": 0.0,
+        "question": "What drug treats lyme disease?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "gastroesophageal reflux disease",
+        "best_similarity": 0.0,
+        "question": "What does esomeprazole treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "esomeprazole",
+        "best_similarity": 0.0,
+        "question": "What drug treats gastroesophageal reflux disease?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "benign prostatic hyperplasia",
+        "best_similarity": 0.0,
+        "question": "What does tamsulosin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "tamsulosin",
+        "best_similarity": 0.0,
+        "question": "What drug treats benign prostatic hyperplasia?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "stroke in atrial fibrillation",
+        "best_similarity": 0.0,
+        "question": "What does rivaroxaban prevent?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "rivaroxaban",
+        "best_similarity": 0.0,
+        "question": "What prevents stroke in atrial fibrillation?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "skin infections",
+        "best_similarity": 0.0,
+        "question": "What does clindamycin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "clindamycin",
+        "best_similarity": 0.0,
+        "question": "What drug treats skin infections?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "heart failure",
+        "best_similarity": 0.0,
+        "question": "What does bisoprolol treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bisoprolol",
+        "best_similarity": 0.0,
+        "question": "What drug treats heart failure?"
+      }
+    ]
+  },
+  "baseline_3": {
+    "metrics": {
+      "exact_match": 0.42857142857142855,
+      "semantic_hit": 0.42857142857142855,
+      "top1_accuracy": 0.37755102040816324,
+      "mrr": 0.3962585034013605,
+      "recall_at_1": 0.42857142857142855,
+      "num_questions": 98
+    },
+    "per_question": [
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "gastric perforation",
+          "gastric cancer",
+          "gastric ulcer",
+          "gastric bleeding",
+          "bleeding in the stomach",
+          "bleeding",
+          "gastric hemorrhage",
+          "stomach bleeding"
+        ],
+        "predicted": [
+          "gastric perforation",
+          "gastric cancer",
+          "gastric ulcer",
+          "gastric bleeding",
+          "bleeding in the stomach",
+          "bleeding",
+          "gastric hemorrhage",
+          "stomach bleeding"
+        ],
+        "top1_prediction": "gastric perforation",
+        "top1_correct": false,
+        "reciprocal_rank": 0.25,
+        "gold": "gastric bleeding",
+        "best_similarity": 1.0,
+        "question": "What does aspirin cause?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Aspirin",
+          "2. Aspirin",
+          "3. Aspirin"
+        ],
+        "predicted": [
+          "1. Aspirin",
+          "2. Aspirin",
+          "3. Aspirin"
+        ],
+        "top1_prediction": "1. Aspirin",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "aspirin",
+        "best_similarity": 1.0,
+        "question": "What causes gastric bleeding?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "lactic acidosis",
+          "type 2 diabetes mellitus",
+          "a drug",
+          "a drug used to treat Type 2 diabetes.",
+          "an effective drug for type 2 diabetes",
+          "first-line treatment for type 2 diabetes"
+        ],
+        "predicted": [
+          "lactic acidosis",
+          "type 2 diabetes mellitus",
+          "a drug",
+          "a drug used to treat Type 2 diabetes.",
+          "an effective drug for type 2 diabetes",
+          "first-line treatment for type 2 diabetes"
+        ],
+        "top1_prediction": "lactic acidosis",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "type 2 diabetes",
+        "best_similarity": 0.0,
+        "question": "What does metformin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "metformin",
+        "best_similarity": 0.0,
+        "question": "What drug treats type 2 diabetes?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bleeding",
+        "best_similarity": 0.0,
+        "question": "What does warfarin increase?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "warfarin",
+        "best_similarity": 0.0,
+        "question": "What increases bleeding?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "fever",
+          "pain",
+          "fever and pain",
+          "is used to lower fever and relieve pain.",
+          "is used to lower fever.",
+          "is used to relieve pain."
+        ],
+        "predicted": [
+          "fever",
+          "pain",
+          "fever and pain",
+          "is used to lower fever and relieve pain.",
+          "is used to lower fever.",
+          "is used to relieve pain."
+        ],
+        "top1_prediction": "fever",
+        "top1_correct": false,
+        "reciprocal_rank": 0.3333333333333333,
+        "gold": "fever and pain",
+        "best_similarity": 1.0,
+        "question": "What does ibuprofen reduce?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "3. Ibuprofen"
+        ],
+        "predicted": [
+          "3. Ibuprofen"
+        ],
+        "top1_prediction": "3. Ibuprofen",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "ibuprofen",
+        "best_similarity": 1.0,
+        "question": "What reduces fever and pain?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "liver"
+        ],
+        "predicted": [
+          "liver"
+        ],
+        "top1_prediction": "liver",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "liver",
+        "best_similarity": 1.0,
+        "question": "Which organ metabolizes acetaminophen?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Acetaminophen"
+        ],
+        "predicted": [
+          "1. Acetaminophen"
+        ],
+        "top1_prediction": "1. Acetaminophen",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "acetaminophen",
+        "best_similarity": 1.0,
+        "question": "What drug is metabolized by the liver?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "cholesterol"
+        ],
+        "predicted": [
+          "cholesterol"
+        ],
+        "top1_prediction": "cholesterol",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "cholesterol",
+        "best_similarity": 1.0,
+        "question": "What does statins reduce?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. statin therapy",
+          "1. statins",
+          "10. statins",
+          "11. statins",
+          "12. statins",
+          "13. statins",
+          "14. statins",
+          "15. statins",
+          "16. statins",
+          "17. statins",
+          "18. statins",
+          "19. statins",
+          "2. statin therapy",
+          "2. statins",
+          "20. statins",
+          "21. statins",
+          "22. statins",
+          "23. statins",
+          "24. statins",
+          "25. statins",
+          "26. statins",
+          "3. statin therapy",
+          "3. statins",
+          "4. statins",
+          "5. statins",
+          "6. statins",
+          "7. statins",
+          "8. statins",
+          "9. statins"
+        ],
+        "predicted": [
+          "1. statin therapy",
+          "1. statins",
+          "10. statins",
+          "11. statins",
+          "12. statins",
+          "13. statins",
+          "14. statins",
+          "15. statins",
+          "16. statins",
+          "17. statins",
+          "18. statins",
+          "19. statins",
+          "2. statin therapy",
+          "2. statins",
+          "20. statins",
+          "21. statins",
+          "22. statins",
+          "23. statins",
+          "24. statins",
+          "25. statins",
+          "26. statins",
+          "3. statin therapy",
+          "3. statins",
+          "4. statins",
+          "5. statins",
+          "6. statins",
+          "7. statins",
+          "8. statins",
+          "9. statins"
+        ],
+        "top1_prediction": "1. statin therapy",
+        "top1_correct": false,
+        "reciprocal_rank": 0.5,
+        "gold": "statins",
+        "best_similarity": 1.0,
+        "question": "What reduces cholesterol?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "blood glucose levels",
+          "glucose"
+        ],
+        "predicted": [
+          "blood glucose levels",
+          "glucose"
+        ],
+        "top1_prediction": "blood glucose levels",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "blood glucose",
+        "best_similarity": 0.0,
+        "question": "What does insulin cause?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "insulin",
+        "best_similarity": 0.0,
+        "question": "What causes blood glucose?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "infections"
+        ],
+        "predicted": [
+          "infections"
+        ],
+        "top1_prediction": "infections",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bacterial infections",
+        "best_similarity": 0.0,
+        "question": "What does penicillin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "penicillin",
+        "best_similarity": 0.0,
+        "question": "What drug treats bacterial infections?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "severe pain",
+        "best_similarity": 0.0,
+        "question": "What does morphine reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "morphine",
+        "best_similarity": 0.0,
+        "question": "What reduces severe pain?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "blood pressure",
+        "best_similarity": 0.0,
+        "question": "What does beta blockers reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "beta blockers",
+        "best_similarity": 0.0,
+        "question": "What reduces blood pressure?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "blood clots",
+        "best_similarity": 0.0,
+        "question": "What does anticoagulants prevent?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "anticoagulants",
+        "best_similarity": 0.0,
+        "question": "What prevents blood clots?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "inflammation",
+        "best_similarity": 0.0,
+        "question": "What does corticosteroids reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "corticosteroids",
+        "best_similarity": 0.0,
+        "question": "What reduces inflammation?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "lactic acidosis"
+        ],
+        "predicted": [
+          "lactic acidosis"
+        ],
+        "top1_prediction": "lactic acidosis",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "lactic acidosis",
+        "best_similarity": 1.0,
+        "question": "What does metformin cause?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Metformin",
+          "3. Metformin",
+          "1. metformin"
+        ],
+        "predicted": [
+          "1. Metformin",
+          "3. Metformin",
+          "1. metformin"
+        ],
+        "top1_prediction": "1. Metformin",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "metformin",
+        "best_similarity": 1.0,
+        "question": "What causes lactic acidosis?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "Vitamin K"
+        ],
+        "predicted": [
+          "Vitamin K"
+        ],
+        "top1_prediction": "Vitamin K",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "vitamin k",
+        "best_similarity": 1.0,
+        "question": "What does warfarin interact with?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "2. Warfarin"
+        ],
+        "predicted": [
+          "2. Warfarin"
+        ],
+        "top1_prediction": "2. Warfarin",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "warfarin",
+        "best_similarity": 1.0,
+        "question": "What interacts with vitamin k?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "heart attacks",
+          "heart attack",
+          "to prevent heart attacks"
+        ],
+        "predicted": [
+          "heart attacks",
+          "heart attack",
+          "to prevent heart attacks"
+        ],
+        "top1_prediction": "heart attacks",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "heart attacks",
+        "best_similarity": 1.0,
+        "question": "What does aspirin prevent?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. aspirin"
+        ],
+        "predicted": [
+          "1. aspirin"
+        ],
+        "top1_prediction": "1. aspirin",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "aspirin",
+        "best_similarity": 1.0,
+        "question": "What prevents heart attacks?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "stomach acid",
+          "acid",
+          "is used to reduce stomach acid."
+        ],
+        "predicted": [
+          "stomach acid",
+          "acid",
+          "is used to reduce stomach acid."
+        ],
+        "top1_prediction": "stomach acid",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "stomach acid",
+        "best_similarity": 1.0,
+        "question": "What does omeprazole reduce?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. omeprazole",
+          "3. omeprazole",
+          "1. Esomeprazole",
+          "1. Omeprazole",
+          "2. GERD",
+          "3. Esomeprazole"
+        ],
+        "predicted": [
+          "1. omeprazole",
+          "3. omeprazole",
+          "1. Esomeprazole",
+          "1. Omeprazole",
+          "2. GERD",
+          "3. Esomeprazole"
+        ],
+        "top1_prediction": "1. omeprazole",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "omeprazole",
+        "best_similarity": 1.0,
+        "question": "What reduces stomach acid?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "a drug",
+          "a medication",
+          "a mood stabilizer"
+        ],
+        "predicted": [
+          "a drug",
+          "a medication",
+          "a mood stabilizer"
+        ],
+        "top1_prediction": "a drug",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bipolar disorder",
+        "best_similarity": 0.0,
+        "question": "What does lithium treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "lithium",
+        "best_similarity": 0.0,
+        "question": "What drug treats bipolar disorder?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "treat",
+          "hypothyroidism",
+          "thyroid hormone"
+        ],
+        "predicted": [
+          "treat",
+          "hypothyroidism",
+          "thyroid hormone"
+        ],
+        "top1_prediction": "treat",
+        "top1_correct": false,
+        "reciprocal_rank": 0.5,
+        "gold": "hypothyroidism",
+        "best_similarity": 1.0,
+        "question": "What does levothyroxine treat?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Levothyroxine",
+          "12. thyroid",
+          "15. thyroid",
+          "18. thyroid",
+          "4. thyroid",
+          "6. Levothyroxine",
+          "9. thyroid"
+        ],
+        "predicted": [
+          "1. Levothyroxine",
+          "12. thyroid",
+          "15. thyroid",
+          "18. thyroid",
+          "4. thyroid",
+          "6. Levothyroxine",
+          "9. thyroid"
+        ],
+        "top1_prediction": "1. Levothyroxine",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "levothyroxine",
+        "best_similarity": 1.0,
+        "question": "What drug treats hypothyroidism?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "asthma symptoms",
+          "relieves"
+        ],
+        "predicted": [
+          "asthma symptoms",
+          "relieves"
+        ],
+        "top1_prediction": "asthma symptoms",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "asthma symptoms",
+        "best_similarity": 1.0,
+        "question": "What does albuterol reduce?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Albuterol"
+        ],
+        "predicted": [
+          "1. Albuterol"
+        ],
+        "top1_prediction": "1. Albuterol",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "albuterol",
+        "best_similarity": 1.0,
+        "question": "What reduces asthma symptoms?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "urine",
+          "fluid overload",
+          "sodium chloride"
+        ],
+        "predicted": [
+          "urine",
+          "fluid overload",
+          "sodium chloride"
+        ],
+        "top1_prediction": "urine",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "diuretic",
+        "best_similarity": 0.0,
+        "question": "What does furosemide cause?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "furosemide",
+        "best_similarity": 0.0,
+        "question": "What causes diuretic?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "heart contractility",
+        "best_similarity": 0.0,
+        "question": "What does digoxin increase?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "digoxin",
+        "best_similarity": 0.0,
+        "question": "What increases heart contractility?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "the immune system",
+          "immunity",
+          "immune",
+          "immune system.",
+          "immunosuppressive effects."
+        ],
+        "predicted": [
+          "the immune system",
+          "immunity",
+          "immune",
+          "immune system.",
+          "immunosuppressive effects."
+        ],
+        "top1_prediction": "the immune system",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "the immune system",
+        "best_similarity": 1.0,
+        "question": "What does prednisone cause?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Prednisone",
+          "10. Prednisone",
+          "11. Prednisone",
+          "12. Prednisone",
+          "13. Prednisone",
+          "14. Prednisone",
+          "15. Prednisone",
+          "16. Prednisone",
+          "17. Prednisone",
+          "18. Prednisone",
+          "19. Prednisone",
+          "2. Prednisone",
+          "3. Prednisone",
+          "4. Prednisone",
+          "5. Prednisone",
+          "6. Prednisone",
+          "7. Prednisone",
+          "8. Prednisone",
+          "9. Prednisone"
+        ],
+        "predicted": [
+          "1. Prednisone",
+          "10. Prednisone",
+          "11. Prednisone",
+          "12. Prednisone",
+          "13. Prednisone",
+          "14. Prednisone",
+          "15. Prednisone",
+          "16. Prednisone",
+          "17. Prednisone",
+          "18. Prednisone",
+          "19. Prednisone",
+          "2. Prednisone",
+          "3. Prednisone",
+          "4. Prednisone",
+          "5. Prednisone",
+          "6. Prednisone",
+          "7. Prednisone",
+          "8. Prednisone",
+          "9. Prednisone"
+        ],
+        "top1_prediction": "1. Prednisone",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "prednisone",
+        "best_similarity": 1.0,
+        "question": "What causes the immune system?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "depression",
+        "best_similarity": 0.0,
+        "question": "What does fluoxetine treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "fluoxetine",
+        "best_similarity": 0.0,
+        "question": "What drug treats depression?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "ear",
+          "treated"
+        ],
+        "predicted": [
+          "ear",
+          "treated"
+        ],
+        "top1_prediction": "ear",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "ear infections",
+        "best_similarity": 0.0,
+        "question": "What does amoxicillin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "amoxicillin",
+        "best_similarity": 0.0,
+        "question": "What drug treats ear infections?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "ldl cholesterol",
+        "best_similarity": 0.0,
+        "question": "What does atorvastatin reduce?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "atorvastatin",
+        "best_similarity": 0.0,
+        "question": "What reduces ldl cholesterol?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "anxiety",
+          "a drug",
+          "a medication"
+        ],
+        "predicted": [
+          "anxiety",
+          "a drug",
+          "a medication"
+        ],
+        "top1_prediction": "anxiety",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "anxiety",
+        "best_similarity": 1.0,
+        "question": "What does sertraline treat?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Sertraline",
+          "2. Sertraline",
+          "2. sertraline"
+        ],
+        "predicted": [
+          "1. Sertraline",
+          "2. Sertraline",
+          "2. sertraline"
+        ],
+        "top1_prediction": "1. Sertraline",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "sertraline",
+        "best_similarity": 1.0,
+        "question": "What drug treats anxiety?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "fluid",
+          "hydrochlorothiazide"
+        ],
+        "predicted": [
+          "fluid",
+          "hydrochlorothiazide"
+        ],
+        "top1_prediction": "fluid",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "diuretic",
+        "best_similarity": 0.0,
+        "question": "What does hydrochlorothiazide cause?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "hydrochlorothiazide",
+        "best_similarity": 0.0,
+        "question": "What causes diuretic?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "treated",
+          "used for"
+        ],
+        "predicted": [
+          "treated",
+          "used for"
+        ],
+        "top1_prediction": "treated",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "nerve pain",
+        "best_similarity": 0.0,
+        "question": "What does gabapentin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "gabapentin",
+        "best_similarity": 0.0,
+        "question": "What drug treats nerve pain?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "blood pressure"
+        ],
+        "predicted": [
+          "blood pressure"
+        ],
+        "top1_prediction": "blood pressure",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "high blood pressure",
+        "best_similarity": 0.0,
+        "question": "What does losartan treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "losartan",
+        "best_similarity": 0.0,
+        "question": "What drug treats high blood pressure?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "bacterial infection"
+        ],
+        "predicted": [
+          "bacterial infection"
+        ],
+        "top1_prediction": "bacterial infection",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bacterial infections",
+        "best_similarity": 0.0,
+        "question": "What does metronidazole treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "metronidazole",
+        "best_similarity": 0.0,
+        "question": "What drug treats bacterial infections?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "migraine headaches",
+          "a drug used to treat migraine headaches"
+        ],
+        "predicted": [
+          "migraine headaches",
+          "a drug used to treat migraine headaches"
+        ],
+        "top1_prediction": "migraine headaches",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "migraine headaches",
+        "best_similarity": 1.0,
+        "question": "What does sumatriptan treat?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Sumatriptan"
+        ],
+        "predicted": [
+          "1. Sumatriptan"
+        ],
+        "top1_prediction": "1. Sumatriptan",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "sumatriptan",
+        "best_similarity": 1.0,
+        "question": "What drug treats migraine headaches?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "clots"
+        ],
+        "predicted": [
+          "clots"
+        ],
+        "top1_prediction": "clots",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "blood clots",
+        "best_similarity": 0.0,
+        "question": "What does clopidogrel prevent?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "clopidogrel",
+        "best_similarity": 0.0,
+        "question": "What prevents blood clots?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "treated"
+        ],
+        "predicted": [
+          "treated"
+        ],
+        "top1_prediction": "treated",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "asthma",
+        "best_similarity": 0.0,
+        "question": "What does montelukast treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "montelukast",
+        "best_similarity": 0.0,
+        "question": "What drug treats asthma?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "gout",
+          "patients.",
+          "treated"
+        ],
+        "predicted": [
+          "gout",
+          "patients.",
+          "treated"
+        ],
+        "top1_prediction": "gout",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "gout",
+        "best_similarity": 1.0,
+        "question": "What does allopurinol treat?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Allopurinol",
+          "11. Allopurinol",
+          "13. Allopurinol",
+          "15. Allopurinol",
+          "17. Allopurinol",
+          "19. Allopurinol",
+          "3. Allopurinol",
+          "5. Allopurinol",
+          "7. Allopurinol",
+          "9. Allopurinol"
+        ],
+        "predicted": [
+          "1. Allopurinol",
+          "11. Allopurinol",
+          "13. Allopurinol",
+          "15. Allopurinol",
+          "17. Allopurinol",
+          "19. Allopurinol",
+          "3. Allopurinol",
+          "5. Allopurinol",
+          "7. Allopurinol",
+          "9. Allopurinol"
+        ],
+        "top1_prediction": "1. Allopurinol",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "allopurinol",
+        "best_similarity": 1.0,
+        "question": "What drug treats gout?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "epilepsy",
+        "best_similarity": 0.0,
+        "question": "What does carbamazepine treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "carbamazepine",
+        "best_similarity": 0.0,
+        "question": "What drug treats epilepsy?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "treated"
+        ],
+        "predicted": [
+          "treated"
+        ],
+        "top1_prediction": "treated",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "benign prostatic hyperplasia",
+        "best_similarity": 0.0,
+        "question": "What does finasteride treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "finasteride",
+        "best_similarity": 0.0,
+        "question": "What drug treats benign prostatic hyperplasia?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "treated"
+        ],
+        "predicted": [
+          "treated"
+        ],
+        "top1_prediction": "treated",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "pneumonia",
+        "best_similarity": 0.0,
+        "question": "What does azithromycin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "azithromycin",
+        "best_similarity": 0.0,
+        "question": "What drug treats pneumonia?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "angina",
+          "coronary vessels",
+          "treats"
+        ],
+        "predicted": [
+          "angina",
+          "coronary vessels",
+          "treats"
+        ],
+        "top1_prediction": "angina",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "angina",
+        "best_similarity": 1.0,
+        "question": "What does isosorbide mononitrate treat?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Isosorbide mononitrate"
+        ],
+        "predicted": [
+          "1. Isosorbide mononitrate"
+        ],
+        "top1_prediction": "1. Isosorbide mononitrate",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "isosorbide mononitrate",
+        "best_similarity": 1.0,
+        "question": "What drug treats angina?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "heart failure",
+          "a drug used to treat heart failure.",
+          "outcomes"
+        ],
+        "predicted": [
+          "heart failure",
+          "a drug used to treat heart failure.",
+          "outcomes"
+        ],
+        "top1_prediction": "heart failure",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "heart failure",
+        "best_similarity": 1.0,
+        "question": "What does spironolactone treat?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Spironolactone",
+          "3. Spironolactone"
+        ],
+        "predicted": [
+          "1. Spironolactone",
+          "3. Spironolactone"
+        ],
+        "top1_prediction": "1. Spironolactone",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "spironolactone",
+        "best_similarity": 1.0,
+        "question": "What drug treats heart failure?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "RA",
+          "a drug used to treat rheumatoid arthritis."
+        ],
+        "predicted": [
+          "RA",
+          "a drug used to treat rheumatoid arthritis."
+        ],
+        "top1_prediction": "RA",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "rheumatoid arthritis",
+        "best_similarity": 0.0,
+        "question": "What does methotrexate treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "methotrexate",
+        "best_similarity": 0.0,
+        "question": "What drug treats rheumatoid arthritis?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "urinary tract infections",
+          "antibiotic",
+          "bladder",
+          "bladder infection",
+          "urine"
+        ],
+        "predicted": [
+          "urinary tract infections",
+          "antibiotic",
+          "bladder",
+          "bladder infection",
+          "urine"
+        ],
+        "top1_prediction": "urinary tract infections",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "urinary tract infections",
+        "best_similarity": 1.0,
+        "question": "What does nitrofurantoin treat?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Nitrofurantoin",
+          "2. Nitrofurantoin",
+          "3. Nitrofurantoin"
+        ],
+        "predicted": [
+          "1. Nitrofurantoin",
+          "2. Nitrofurantoin",
+          "3. Nitrofurantoin"
+        ],
+        "top1_prediction": "1. Nitrofurantoin",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "nitrofurantoin",
+        "best_similarity": 1.0,
+        "question": "What drug treats urinary tract infections?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "schizophrenia"
+        ],
+        "predicted": [
+          "schizophrenia"
+        ],
+        "top1_prediction": "schizophrenia",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "schizophrenia",
+        "best_similarity": 1.0,
+        "question": "What does haloperidol treat?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Haloperidol",
+          "2. Haloperidol"
+        ],
+        "predicted": [
+          "1. Haloperidol",
+          "2. Haloperidol"
+        ],
+        "top1_prediction": "1. Haloperidol",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "haloperidol",
+        "best_similarity": 1.0,
+        "question": "What drug treats schizophrenia?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "a",
+          "a drug",
+          "an",
+          "seizures"
+        ],
+        "predicted": [
+          "a",
+          "a drug",
+          "an",
+          "seizures"
+        ],
+        "top1_prediction": "a",
+        "top1_correct": false,
+        "reciprocal_rank": 0.25,
+        "gold": "seizures",
+        "best_similarity": 1.0,
+        "question": "What does phenytoin treat?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "2. Phenytoin"
+        ],
+        "predicted": [
+          "2. Phenytoin"
+        ],
+        "top1_prediction": "2. Phenytoin",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "phenytoin",
+        "best_similarity": 1.0,
+        "question": "What drug treats seizures?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "treatment"
+        ],
+        "predicted": [
+          "treatment"
+        ],
+        "top1_prediction": "treatment",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "lyme disease",
+        "best_similarity": 0.0,
+        "question": "What does doxycycline treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "1. L",
+          "3. L"
+        ],
+        "predicted": [
+          "1. L",
+          "3. L"
+        ],
+        "top1_prediction": "1. L",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "doxycycline",
+        "best_similarity": 0.0,
+        "question": "What drug treats lyme disease?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "gastroesophageal reflux disease",
+          "esophagitis",
+          "GERD",
+          "esomeprazole"
+        ],
+        "predicted": [
+          "gastroesophageal reflux disease",
+          "esophagitis",
+          "GERD",
+          "esomeprazole"
+        ],
+        "top1_prediction": "gastroesophageal reflux disease",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "gastroesophageal reflux disease",
+        "best_similarity": 1.0,
+        "question": "What does esomeprazole treat?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Esomeprazole"
+        ],
+        "predicted": [
+          "1. Esomeprazole"
+        ],
+        "top1_prediction": "1. Esomeprazole",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "esomeprazole",
+        "best_similarity": 1.0,
+        "question": "What drug treats gastroesophageal reflux disease?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "treated"
+        ],
+        "predicted": [
+          "treated"
+        ],
+        "top1_prediction": "treated",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "benign prostatic hyperplasia",
+        "best_similarity": 0.0,
+        "question": "What does tamsulosin treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "tamsulosin",
+        "best_similarity": 0.0,
+        "question": "What drug treats benign prostatic hyperplasia?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "stroke in atrial fibrillation",
+        "best_similarity": 0.0,
+        "question": "What does rivaroxaban prevent?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [],
+        "predicted": [],
+        "top1_prediction": null,
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "rivaroxaban",
+        "best_similarity": 0.0,
+        "question": "What prevents stroke in atrial fibrillation?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "skin infections",
+          "antibiotic",
+          "a drug used to treat skin infections.",
+          "skin",
+          "skin and soft tissue",
+          "soft tissue"
+        ],
+        "predicted": [
+          "skin infections",
+          "antibiotic",
+          "a drug used to treat skin infections.",
+          "skin",
+          "skin and soft tissue",
+          "soft tissue"
+        ],
+        "top1_prediction": "skin infections",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "skin infections",
+        "best_similarity": 1.0,
+        "question": "What does clindamycin treat?"
+      },
+      {
+        "exact_match": true,
+        "semantic_hit": true,
+        "recall_at_1": true,
+        "predicted_ranked": [
+          "1. Clindamycin"
+        ],
+        "predicted": [
+          "1. Clindamycin"
+        ],
+        "top1_prediction": "1. Clindamycin",
+        "top1_correct": true,
+        "reciprocal_rank": 1.0,
+        "gold": "clindamycin",
+        "best_similarity": 1.0,
+        "question": "What drug treats skin infections?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "treated"
+        ],
+        "predicted": [
+          "treated"
+        ],
+        "top1_prediction": "treated",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "heart failure",
+        "best_similarity": 0.0,
+        "question": "What does bisoprolol treat?"
+      },
+      {
+        "exact_match": false,
+        "semantic_hit": false,
+        "recall_at_1": false,
+        "predicted_ranked": [
+          "1. Spironolactone",
+          "3. Spironolactone"
+        ],
+        "predicted": [
+          "1. Spironolactone",
+          "3. Spironolactone"
+        ],
+        "top1_prediction": "1. Spironolactone",
+        "top1_correct": false,
+        "reciprocal_rank": 0.0,
+        "gold": "bisoprolol",
+        "best_similarity": 0.0,
+        "question": "What drug treats heart failure?"
+      }
+    ]
+  }
+}

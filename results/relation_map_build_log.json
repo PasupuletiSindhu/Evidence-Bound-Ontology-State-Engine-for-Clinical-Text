@@ -1,0 +1,2503 @@
+{
+  "source_paraphrase": "/home/stu1/s7/sp7289/Capstone/results/paraphrase_results.json",
+  "supervision": "Supervised relation centroids (cue\u2192canonical per fact; nearest centroid for general cues) or KMeans fallback",
+  "relation_cluster_map": "/home/stu1/s7/sp7289/Capstone/results/relation_cluster_map.json",
+  "baselines_used": [
+    "baseline_1",
+    "baseline_2",
+    "baseline_3"
+  ],
+  "runtime_disambiguation": "normalize_relation_label() uses infer_relation_from_text(fact) (relation-phrase embed + nearest centroid vs REL_MAP for shared LABEL_n).",
+  "num_sets": 50,
+  "labeled_sets": 50,
+  "fact_inferred_relations": {
+    "Aspirin causes gastric bleeding.": "causes",
+    "Metformin is used to treat type 2 diabetes.": "treats",
+    "Warfarin increases the risk of bleeding.": "increases",
+    "Ibuprofen can reduce fever and pain.": "reduces",
+    "Acetaminophen is metabolized by the liver.": "metabolized_by",
+    "Statins lower cholesterol.": "reduces",
+    "Insulin regulates blood glucose.": "causes",
+    "Penicillin treats bacterial infections.": "treats",
+    "Morphine relieves severe pain.": "reduces",
+    "Beta blockers reduce blood pressure.": "reduces",
+    "Anticoagulants prevent blood clots.": "prevents",
+    "Corticosteroids reduce inflammation.": "reduces",
+    "ACE inhibitors treat hypertension.": "treats",
+    "Metformin can cause lactic acidosis.": "causes",
+    "Warfarin interacts with vitamin K.": "interacts_with",
+    "Aspirin prevents heart attacks.": "prevents",
+    "Omeprazole reduces stomach acid.": "reduces",
+    "Lithium treats bipolar disorder.": "treats",
+    "Levothyroxine treats hypothyroidism.": "treats",
+    "Albuterol relieves asthma symptoms.": "reduces",
+    "Furosemide is a diuretic.": "causes",
+    "Digoxin increases heart contractility.": "increases",
+    "Prednisone suppresses the immune system.": "causes",
+    "Fluoxetine treats depression.": "treats",
+    "Amoxicillin treats ear infections.": "treats",
+    "Atorvastatin lowers LDL cholesterol.": "reduces",
+    "Sertraline treats anxiety.": "treats",
+    "Hydrochlorothiazide is a diuretic.": "causes",
+    "Gabapentin treats nerve pain.": "treats",
+    "Losartan treats high blood pressure.": "treats",
+    "Metronidazole treats bacterial infections.": "treats",
+    "Drug32 treats Condition32.": "treats",
+    "Drug33 treats Condition33.": "treats",
+    "Drug34 treats Condition34.": "treats",
+    "Drug35 treats Condition35.": "treats",
+    "Drug36 treats Condition36.": "treats",
+    "Drug37 treats Condition37.": "treats",
+    "Drug38 treats Condition38.": "treats",
+    "Drug39 treats Condition39.": "treats",
+    "Drug40 treats Condition40.": "treats",
+    "Drug41 treats Condition41.": "treats",
+    "Drug42 treats Condition42.": "treats",
+    "Drug43 treats Condition43.": "treats",
+    "Drug44 treats Condition44.": "treats",
+    "Drug45 treats Condition45.": "treats",
+    "Drug46 treats Condition46.": "treats",
+    "Drug47 treats Condition47.": "treats",
+    "Drug48 treats Condition48.": "treats",
+    "Drug49 treats Condition49.": "treats",
+    "Drug50 treats Condition50.": "treats"
+  },
+  "cluster_fact_assignments": [
+    {
+      "set_id": 0,
+      "fact": "Aspirin causes gastric bleeding.",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "relation": "causes"
+    },
+    {
+      "set_id": 1,
+      "fact": "Metformin is used to treat type 2 diabetes.",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 2,
+      "fact": "Warfarin increases the risk of bleeding.",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "relation": "increases"
+    },
+    {
+      "set_id": 3,
+      "fact": "Ibuprofen can reduce fever and pain.",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "relation": "reduces"
+    },
+    {
+      "set_id": 4,
+      "fact": "Acetaminophen is metabolized by the liver.",
+      "relation_phrase": "metabolized by",
+      "cluster_id": 3,
+      "relation": "metabolized_by"
+    },
+    {
+      "set_id": 5,
+      "fact": "Statins lower cholesterol.",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "relation": "reduces"
+    },
+    {
+      "set_id": 6,
+      "fact": "Insulin regulates blood glucose.",
+      "relation_phrase": "regulates level",
+      "cluster_id": 0,
+      "relation": "causes"
+    },
+    {
+      "set_id": 7,
+      "fact": "Penicillin treats bacterial infections.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 8,
+      "fact": "Morphine relieves severe pain.",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "relation": "reduces"
+    },
+    {
+      "set_id": 9,
+      "fact": "Beta blockers reduce blood pressure.",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "relation": "reduces"
+    },
+    {
+      "set_id": 10,
+      "fact": "Anticoagulants prevent blood clots.",
+      "relation_phrase": "prevents",
+      "cluster_id": 4,
+      "relation": "prevents"
+    },
+    {
+      "set_id": 11,
+      "fact": "Corticosteroids reduce inflammation.",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "relation": "reduces"
+    },
+    {
+      "set_id": 12,
+      "fact": "ACE inhibitors treat hypertension.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 13,
+      "fact": "Metformin can cause lactic acidosis.",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "relation": "causes"
+    },
+    {
+      "set_id": 14,
+      "fact": "Warfarin interacts with vitamin K.",
+      "relation_phrase": "interacts with",
+      "cluster_id": 2,
+      "relation": "interacts_with"
+    },
+    {
+      "set_id": 15,
+      "fact": "Aspirin prevents heart attacks.",
+      "relation_phrase": "prevents",
+      "cluster_id": 4,
+      "relation": "prevents"
+    },
+    {
+      "set_id": 16,
+      "fact": "Omeprazole reduces stomach acid.",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "relation": "reduces"
+    },
+    {
+      "set_id": 17,
+      "fact": "Lithium treats bipolar disorder.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 18,
+      "fact": "Levothyroxine treats hypothyroidism.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 19,
+      "fact": "Albuterol relieves asthma symptoms.",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "relation": "reduces"
+    },
+    {
+      "set_id": 20,
+      "fact": "Furosemide is a diuretic.",
+      "relation_phrase": "diuretic drug",
+      "cluster_id": 0,
+      "relation": "causes"
+    },
+    {
+      "set_id": 21,
+      "fact": "Digoxin increases heart contractility.",
+      "relation_phrase": "increases effect",
+      "cluster_id": 1,
+      "relation": "increases"
+    },
+    {
+      "set_id": 22,
+      "fact": "Prednisone suppresses the immune system.",
+      "relation_phrase": "suppresses immune",
+      "cluster_id": 0,
+      "relation": "causes"
+    },
+    {
+      "set_id": 23,
+      "fact": "Fluoxetine treats depression.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 24,
+      "fact": "Amoxicillin treats ear infections.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 25,
+      "fact": "Atorvastatin lowers LDL cholesterol.",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "relation": "reduces"
+    },
+    {
+      "set_id": 26,
+      "fact": "Sertraline treats anxiety.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 27,
+      "fact": "Hydrochlorothiazide is a diuretic.",
+      "relation_phrase": "diuretic drug",
+      "cluster_id": 0,
+      "relation": "causes"
+    },
+    {
+      "set_id": 28,
+      "fact": "Gabapentin treats nerve pain.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 29,
+      "fact": "Losartan treats high blood pressure.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 30,
+      "fact": "Metronidazole treats bacterial infections.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 31,
+      "fact": "Drug32 treats Condition32.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 32,
+      "fact": "Drug33 treats Condition33.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 33,
+      "fact": "Drug34 treats Condition34.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 34,
+      "fact": "Drug35 treats Condition35.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 35,
+      "fact": "Drug36 treats Condition36.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 36,
+      "fact": "Drug37 treats Condition37.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 37,
+      "fact": "Drug38 treats Condition38.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 38,
+      "fact": "Drug39 treats Condition39.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 39,
+      "fact": "Drug40 treats Condition40.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 40,
+      "fact": "Drug41 treats Condition41.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 41,
+      "fact": "Drug42 treats Condition42.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 42,
+      "fact": "Drug43 treats Condition43.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 43,
+      "fact": "Drug44 treats Condition44.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 44,
+      "fact": "Drug45 treats Condition45.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 45,
+      "fact": "Drug46 treats Condition46.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 46,
+      "fact": "Drug47 treats Condition47.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 47,
+      "fact": "Drug48 treats Condition48.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 48,
+      "fact": "Drug49 treats Condition49.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    },
+    {
+      "set_id": 49,
+      "fact": "Drug50 treats Condition50.",
+      "relation_phrase": "treats",
+      "cluster_id": 6,
+      "relation": "treats"
+    }
+  ],
+  "cluster_summaries": [
+    {
+      "cluster_id": 0,
+      "relation": "causes",
+      "num_facts": 6,
+      "relation_phrases": [
+        "causes adverse",
+        "regulates level",
+        "causes adverse",
+        "diuretic drug",
+        "suppresses immune",
+        "diuretic drug"
+      ],
+      "facts": [
+        "Aspirin causes gastric bleeding.",
+        "Insulin regulates blood glucose.",
+        "Metformin can cause lactic acidosis.",
+        "Furosemide is a diuretic.",
+        "Prednisone suppresses the immune system.",
+        "Hydrochlorothiazide is a diuretic."
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "relation": "increases",
+      "num_facts": 2,
+      "relation_phrases": [
+        "increases risk",
+        "increases effect"
+      ],
+      "facts": [
+        "Warfarin increases the risk of bleeding.",
+        "Digoxin increases heart contractility."
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "relation": "interacts_with",
+      "num_facts": 1,
+      "relation_phrases": [
+        "interacts with"
+      ],
+      "facts": [
+        "Warfarin interacts with vitamin K."
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "relation": "metabolized_by",
+      "num_facts": 1,
+      "relation_phrases": [
+        "metabolized by"
+      ],
+      "facts": [
+        "Acetaminophen is metabolized by the liver."
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "relation": "prevents",
+      "num_facts": 2,
+      "relation_phrases": [
+        "prevents",
+        "prevents"
+      ],
+      "facts": [
+        "Anticoagulants prevent blood clots.",
+        "Aspirin prevents heart attacks."
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "relation": "reduces",
+      "num_facts": 8,
+      "relation_phrases": [
+        "reduces symptom",
+        "reduces symptom",
+        "reduces symptom",
+        "reduces symptom",
+        "reduces symptom",
+        "reduces symptom",
+        "reduces symptom",
+        "reduces symptom"
+      ],
+      "facts": [
+        "Ibuprofen can reduce fever and pain.",
+        "Statins lower cholesterol.",
+        "Morphine relieves severe pain.",
+        "Beta blockers reduce blood pressure.",
+        "Corticosteroids reduce inflammation.",
+        "Omeprazole reduces stomach acid.",
+        "Albuterol relieves asthma symptoms.",
+        "Atorvastatin lowers LDL cholesterol."
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "relation": "treats",
+      "num_facts": 30,
+      "relation_phrases": [
+        "treats disease",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats",
+        "treats"
+      ],
+      "facts": [
+        "Metformin is used to treat type 2 diabetes.",
+        "Penicillin treats bacterial infections.",
+        "ACE inhibitors treat hypertension.",
+        "Lithium treats bipolar disorder.",
+        "Levothyroxine treats hypothyroidism.",
+        "Fluoxetine treats depression.",
+        "Amoxicillin treats ear infections.",
+        "Sertraline treats anxiety.",
+        "Gabapentin treats nerve pain.",
+        "Losartan treats high blood pressure.",
+        "Metronidazole treats bacterial infections.",
+        "Drug32 treats Condition32.",
+        "Drug33 treats Condition33.",
+        "Drug34 treats Condition34.",
+        "Drug35 treats Condition35.",
+        "Drug36 treats Condition36.",
+        "Drug37 treats Condition37.",
+        "Drug38 treats Condition38.",
+        "Drug39 treats Condition39.",
+        "Drug40 treats Condition40.",
+        "Drug41 treats Condition41.",
+        "Drug42 treats Condition42.",
+        "Drug43 treats Condition43.",
+        "Drug44 treats Condition44.",
+        "Drug45 treats Condition45.",
+        "Drug46 treats Condition46.",
+        "Drug47 treats Condition47.",
+        "Drug48 treats Condition48.",
+        "Drug49 treats Condition49.",
+        "Drug50 treats Condition50."
+      ]
+    }
+  ],
+  "label_cluster_relation_trace_count": 2599,
+  "label_cluster_relation_trace_head": [
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "object",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "taking",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "is used",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "is a",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "is",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "is",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "causes",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 0,
+      "extractor_label": "is",
+      "relation_phrase": "causes adverse",
+      "cluster_id": 0,
+      "cluster_relation": "causes"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is used to treat",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is treated with",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is used to treat",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is treated with",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is used to treat",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is treated with",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is used to treat",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is treated with",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is used to treat",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is treated with",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is used to treat",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is treated with",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is used to treat",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is treated with",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is used to treat",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is treated with",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "is",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treats",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treated by",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treats",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treated by",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treated by",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treated by",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treated by",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treated by",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treated by",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treated by",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treated by",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treated by",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treated by",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treated by",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "treated by",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 1,
+      "extractor_label": "related_to",
+      "relation_phrase": "treats disease",
+      "cluster_id": 6,
+      "cluster_relation": "treats"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "is",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "is",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "is",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "is",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "is",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "causes",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "is",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "is",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "is",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "is",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "is",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 2,
+      "extractor_label": "is",
+      "relation_phrase": "increases risk",
+      "cluster_id": 1,
+      "cluster_relation": "increases"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    },
+    {
+      "set_id": 3,
+      "extractor_label": "LABEL_0",
+      "relation_phrase": "reduces symptom",
+      "cluster_id": 5,
+      "cluster_relation": "reduces"
+    }
+  ],
+  "label_relation_counts": {
+    "\"ANTI-INFLAMMATORY\"": {
+      "reduces": 3
+    },
+    "\"ARE\"": {
+      "reduces": 2
+    },
+    "\"BETA_BLOCKERS\"": {
+      "reduces": 14
+    },
+    "\"DECREASE\"": {
+      "reduces": 1
+    },
+    "\"DECREASE_INFLAMMATION\"": {
+      "reduces": 3
+    },
+    "\"EFFECTIVE\"": {
+      "treats": 3
+    },
+    "\"EFFECTS\"": {
+      "reduces": 1
+    },
+    "\"FOR\"": {
+      "reduces": 1
+    },
+    "\"INFLAMMATION\"": {
+      "reduces": 11
+    },
+    "\"IS\"": {
+      "causes": 16
+    },
+    "\"LOWER\"": {
+      "reduces": 2
+    },
+    "\"MANAGED\"": {
+      "reduces": 3
+    },
+    "\"OBJECT\"": {
+      "reduces": 1
+    },
+    "\"PAIN\"": {
+      "reduces": 2,
+      "treats": 4
+    },
+    "\"PAIN_RELIEF\"": {
+      "reduces": 1
+    },
+    "\"PRESCRIBED\"": {
+      "treats": 1
+    },
+    "\"REDUCED\"": {
+      "reduces": 3
+    },
+    "\"REDUCES\"": {
+      "treats": 2
+    },
+    "\"REDUCE_INFLAMMATION\"": {
+      "reduces": 3
+    },
+    "\"REDUCTION\"": {
+      "prevents": 13
+    },
+    "\"RELATION\"": {
+      "reduces": 1
+    },
+    "\"RELIEF\"": {
+      "reduces": 1
+    },
+    "\"RELIEVES\"": {
+      "treats": 1
+    },
+    "\"SUBJECT\"": {
+      "reduces": 1
+    },
+    "\"TREATMENT\"": {
+      "reduces": 3,
+      "treats": 3
+    },
+    "\"TREATS\"": {
+      "treats": 2
+    },
+    "\"USE\"": {
+      "reduces": 1
+    },
+    "\"USED\"": {
+      "reduces": 4,
+      "treats": 2
+    },
+    "<HTTP://EXAMPLE.COM/CONDITION32>": {
+      "treats": 1
+    },
+    "<HTTP://EXAMPLE.COM/CONDITION34>": {
+      "treats": 1
+    },
+    "<HTTP://EXAMPLE.COM/CONDITION36>": {
+      "treats": 1
+    },
+    "<HTTP://EXAMPLE.COM/CONDITION41>": {
+      "treats": 1
+    },
+    "<HTTP://EXAMPLE.COM/CONDITION42>": {
+      "treats": 1
+    },
+    "<HTTP://EXAMPLE.COM/CONDITION43>": {
+      "treats": 1
+    },
+    "<HTTP://EXAMPLE.COM/CONDITION44>": {
+      "treats": 1
+    },
+    "<HTTP://EXAMPLE.COM/CONDITION46>": {
+      "treats": 1
+    },
+    "<HTTP://EXAMPLE.COM/CONDITION47>": {
+      "treats": 1
+    },
+    "<HTTP://EXAMPLE.COM/CONDITION48>": {
+      "treats": 1
+    },
+    "<HTTP://EXAMPLE.COM/CONDITION49>": {
+      "treats": 1
+    },
+    "<HTTP://EXAMPLE.COM/CONDITION50>": {
+      "treats": 3
+    },
+    "<HTTP://EXAMPLE.COM>": {
+      "treats": 20
+    },
+    "<HTTP://WWW.W3.ORG/2002/07/OWL#SAMEAS>": {
+      "treats": 9
+    },
+    "ALTERS": {
+      "interacts_with": 1
+    },
+    "ANTIBIOTIC": {
+      "treats": 2
+    },
+    "ARE": {
+      "treats": 1
+    },
+    "CAUSES": {
+      "causes": 39,
+      "increases": 25
+    },
+    "CONTROLLED": {
+      "treats": 3
+    },
+    "CONTROLS": {
+      "causes": 2
+    },
+    "DISEASE": {
+      "treats": 26
+    },
+    "DIURETIC": {
+      "causes": 84
+    },
+    "DIURETIC_ACTION": {
+      "causes": 6
+    },
+    "DRUG45": {
+      "treats": 3
+    },
+    "EFFECT": {
+      "interacts_with": 1
+    },
+    "FEVER": {
+      "reduces": 1
+    },
+    "HAS": {
+      "causes": 3
+    },
+    "HELPS": {
+      "causes": 3,
+      "prevents": 1,
+      "treats": 21
+    },
+    "IN": {
+      "causes": 1
+    },
+    "INCLUDES": {
+      "treats": 5
+    },
+    "INFECTION": {
+      "treats": 10
+    },
+    "INSULIN": {
+      "causes": 3
+    },
+    "INTERACTS_WITH": {
+      "interacts_with": 4
+    },
+    "IS": {
+      "causes": 119,
+      "treats": 623,
+      "increases": 11,
+      "reduces": 19,
+      "metabolized_by": 6,
+      "interacts_with": 14
+    },
+    "ISDIAGNOSEDBY": {
+      "treats": 60
+    },
+    "ISEFFECTIVEFOR": {
+      "treats": 6
+    },
+    "ISMANAGEDBY": {
+      "treats": 40
+    },
+    "ISPARTOF": {
+      "treats": 57
+    },
+    "ISUSEDFOR": {
+      "treats": 4
+    },
+    "IS_A": {
+      "causes": 1,
+      "treats": 12
+    },
+    "IS_BROKEN_DOWN_BY_THE_LIVER": {
+      "metabolized_by": 3
+    },
+    "IS_EFFECTIVE": {
+      "treats": 3
+    },
+    "IS_MANAGED": {
+      "treats": 1
+    },
+    "IS_MANAGED_WITH": {
+      "treats": 1
+    },
+    "IS_METABOLIZED_BY_THE_LIVER": {
+      "metabolized_by": 3
+    },
+    "IS_TAKEN": {
+      "reduces": 3
+    },
+    "IS_TREATED_BY": {
+      "treats": 1
+    },
+    "IS_TREATED_WITH": {
+      "treats": 10
+    },
+    "IS_TREATMENT": {
+      "treats": 2
+    },
+    "IS_USED": {
+      "causes": 4,
+      "treats": 54
+    },
+    "IS_USED_AS_A": {
+      "causes": 15
+    },
+    "IS_USED_FOR": {
+      "treats": 29
+    },
+    "IS_USED_TO_TREAT": {
+      "treats": 55
+    },
+    "LABEL_0": {
+      "causes": 50,
+      "treats": 400,
+      "increases": 20,
+      "reduces": 144,
+      "interacts_with": 20,
+      "prevents": 20
+    },
+    "LACTIC_ACIDOSIS": {
+      "causes": 17
+    },
+    "LOWERED_BY": {
+      "reduces": 18
+    },
+    "LOWERS": {
+      "reduces": 29
+    },
+    "LOWERS_CHOLESTEROL": {
+      "reduces": 24
+    },
+    "METABOLISM": {
+      "metabolized_by": 2
+    },
+    "METABOLIZES": {
+      "metabolized_by": 6
+    },
+    "OBJECT": {
+      "causes": 1
+    },
+    "PAIN": {
+      "reduces": 1
+    },
+    "PRESCRIBED": {
+      "treats": 11
+    },
+    "PREVENT": {
+      "prevents": 2
+    },
+    "PREVENTION": {
+      "prevents": 2
+    },
+    "PREVENTS": {
+      "prevents": 2
+    },
+    "QUICKLY": {
+      "reduces": 1
+    },
+    "REDUCED": {
+      "reduces": 25
+    },
+    "REDUCES": {
+      "reduces": 14,
+      "causes": 3
+    },
+    "REDUCES_PAIN": {
+      "reduces": 1
+    },
+    "REGULATES": {
+      "causes": 5
+    },
+    "REGULATES_BLOOD_GLUCOSE": {
+      "causes": 3
+    },
+    "RELATED_TO": {
+      "treats": 7,
+      "reduces": 8,
+      "causes": 4
+    },
+    "RELIEF": {
+      "reduces": 22
+    },
+    "RELIEVES": {
+      "reduces": 1
+    },
+    "REPLACES": {
+      "treats": 3
+    },
+    "SIDE_EFFECT": {
+      "causes": 17
+    },
+    "SUPPRESS": {
+      "causes": 7
+    },
+    "SUPPRESSES": {
+      "causes": 19
+    },
+    "SYMPTOM": {
+      "treats": 28
+    },
+    "TAKEN": {
+      "prevents": 1
+    },
+    "TAKING": {
+      "causes": 1
+    },
+    "TREATED": {
+      "treats": 43
+    },
+    "TREATED_BY": {
+      "treats": 13
+    },
+    "TREATMENT": {
+      "treats": 16
+    },
+    "TREATS": {
+      "treats": 25
+    },
+    "USE": {
+      "prevents": 1,
+      "causes": 1
+    },
+    "USED": {
+      "treats": 8
+    }
+  },
+  "mapping": {
+    "ANTIBIOTIC": "treats",
+    "CAUSES": "causes",
+    "CONTROLLED": "treats",
+    "CONTROLS": "causes",
+    "DISEASE": "treats",
+    "DIURETIC": "causes",
+    "DIURETIC_ACTION": "causes",
+    "DRUG45": "treats",
+    "HAS": "causes",
+    "HELPS": "treats",
+    "INCLUDES": "treats",
+    "INFECTION": "treats",
+    "INSULIN": "causes",
+    "INTERACTS_WITH": "interacts_with",
+    "ISDIAGNOSEDBY": "treats",
+    "ISEFFECTIVEFOR": "treats",
+    "ISMANAGEDBY": "treats",
+    "ISPARTOF": "treats",
+    "ISUSEDFOR": "treats",
+    "IS_A": "treats",
+    "IS_BROKEN_DOWN_BY_THE_LIVER": "metabolized_by",
+    "IS_EFFECTIVE": "treats",
+    "IS_METABOLIZED_BY_THE_LIVER": "metabolized_by",
+    "IS_TAKEN": "reduces",
+    "IS_TREATED_WITH": "treats",
+    "IS_TREATMENT": "treats",
+    "IS_USED": "treats",
+    "IS_USED_AS_A": "causes",
+    "IS_USED_FOR": "treats",
+    "IS_USED_TO_TREAT": "treats",
+    "LABEL_0": "treats",
+    "LACTIC_ACIDOSIS": "causes",
+    "LOWERED_BY": "reduces",
+    "LOWERS": "reduces",
+    "LOWERS_CHOLESTEROL": "reduces",
+    "METABOLISM": "metabolized_by",
+    "METABOLIZES": "metabolized_by",
+    "PRESCRIBED": "treats",
+    "PREVENT": "prevents",
+    "PREVENTION": "prevents",
+    "PREVENTS": "prevents",
+    "REDUCED": "reduces",
+    "REDUCES": "reduces",
+    "REGULATES": "causes",
+    "REGULATES_BLOOD_GLUCOSE": "causes",
+    "RELATED_TO": "reduces",
+    "RELIEF": "reduces",
+    "REPLACES": "treats",
+    "SIDE_EFFECT": "causes",
+    "SUPPRESS": "causes",
+    "SUPPRESSES": "causes",
+    "SYMPTOM": "treats",
+    "TREATED": "treats",
+    "TREATED_BY": "treats",
+    "TREATMENT": "treats",
+    "TREATS": "treats",
+    "USE": "causes",
+    "USED": "treats"
+  },
+  "tie_breaks": [
+    {
+      "label": "\"TREATMENT\"",
+      "tie": [
+        "reduces",
+        "treats"
+      ],
+      "counts": {
+        "reduces": 3,
+        "treats": 3
+      },
+      "chosen": "reduces"
+    },
+    {
+      "label": "USE",
+      "tie": [
+        "causes",
+        "prevents"
+      ],
+      "counts": {
+        "causes": 1,
+        "prevents": 1
+      },
+      "chosen": "causes"
+    }
+  ],
+  "labels_seen_without_mapping": [
+    "\"ANTI-INFLAMMATORY\"",
+    "\"ARE\"",
+    "\"BETA_BLOCKERS\"",
+    "\"DECREASE\"",
+    "\"DECREASE_INFLAMMATION\"",
+    "\"EFFECTIVE\"",
+    "\"EFFECTS\"",
+    "\"FOR\"",
+    "\"INFLAMMATION\"",
+    "\"IS\"",
+    "\"LOWER\"",
+    "\"MANAGED\"",
+    "\"OBJECT\"",
+    "\"PAIN\"",
+    "\"PAIN_RELIEF\"",
+    "\"PRESCRIBED\"",
+    "\"REDUCED\"",
+    "\"REDUCES\"",
+    "\"REDUCE_INFLAMMATION\"",
+    "\"REDUCTION\"",
+    "\"RELATION\"",
+    "\"RELIEF\"",
+    "\"RELIEVES\"",
+    "\"SUBJECT\"",
+    "\"TREATMENT\"",
+    "\"TREATS\"",
+    "\"USE\"",
+    "\"USED\"",
+    "<HTTP://EXAMPLE.COM/CONDITION32>",
+    "<HTTP://EXAMPLE.COM/CONDITION34>",
+    "<HTTP://EXAMPLE.COM/CONDITION36>",
+    "<HTTP://EXAMPLE.COM/CONDITION41>",
+    "<HTTP://EXAMPLE.COM/CONDITION42>",
+    "<HTTP://EXAMPLE.COM/CONDITION43>",
+    "<HTTP://EXAMPLE.COM/CONDITION44>",
+    "<HTTP://EXAMPLE.COM/CONDITION46>",
+    "<HTTP://EXAMPLE.COM/CONDITION47>",
+    "<HTTP://EXAMPLE.COM/CONDITION48>",
+    "<HTTP://EXAMPLE.COM/CONDITION49>",
+    "<HTTP://EXAMPLE.COM/CONDITION50>",
+    "<HTTP://EXAMPLE.COM>",
+    "<HTTP://WWW.W3.ORG/2002/07/OWL#SAMEAS>",
+    "ALTERS",
+    "ARE",
+    "EFFECT",
+    "FEVER",
+    "IN",
+    "IS",
+    "IS_MANAGED",
+    "IS_MANAGED_WITH",
+    "IS_TREATED_BY",
+    "OBJECT",
+    "PAIN",
+    "QUICKLY",
+    "REDUCES_PAIN",
+    "RELIEVES",
+    "TAKEN",
+    "TAKING"
+  ]
+}

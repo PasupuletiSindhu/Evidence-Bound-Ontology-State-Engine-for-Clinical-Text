@@ -1,0 +1,12 @@
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.26.0
+peft>=0.7.0
+huggingface_hub>=0.20.0
+seqeval>=1.2.2
+scikit-learn>=1.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+pytorch-crf>=0.7.2
+matplotlib>=3.5.0
+networkx>=2.6

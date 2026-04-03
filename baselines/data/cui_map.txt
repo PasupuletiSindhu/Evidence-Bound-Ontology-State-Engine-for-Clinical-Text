@@ -1,0 +1,12 @@
+# Entity text -> UMLS CUI (one per line, tab-separated).
+# Used by Baseline 2 to normalize entities. Add more lines as needed.
+# See https://uts.nlm.nih.gov/uts/umls/home (UMLS license may apply).
+Aspirin	C0004057
+aspirin	C0004057
+Gastric bleeding	C0017181
+gastric bleeding	C0017181
+Gastric hemorrhage	C0019080
+gastric hemorrhage	C0019080
+Stomach bleeding	C0017181
+stomach bleeding	C0017181
+bleeding	C0019080

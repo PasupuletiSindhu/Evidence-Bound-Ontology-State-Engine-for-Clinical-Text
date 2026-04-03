@@ -1,0 +1,1255 @@
+{
+  "CAUSES": {
+    "counts": {
+      "causes": 83,
+      "treats": 466,
+      "increases": 43,
+      "reduces": 104,
+      "interacts_with": 16,
+      "prevents": 52
+    },
+    "top_relation": "treats",
+    "top_count": 466,
+    "total": 764,
+    "top_ratio": 0.6099476439790575,
+    "mapped_to": "treats"
+  },
+  "OBJECT": {
+    "counts": {
+      "causes": 1
+    },
+    "top_relation": "causes",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "causes"
+  },
+  "TAKING": {
+    "counts": {
+      "causes": 1
+    },
+    "top_relation": "causes",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "causes"
+  },
+  "IS_USED": {
+    "counts": {
+      "causes": 4,
+      "treats": 26,
+      "prevents": 1
+    },
+    "top_relation": "treats",
+    "top_count": 26,
+    "total": 31,
+    "top_ratio": 0.8387096774193549,
+    "mapped_to": "treats"
+  },
+  "IS_A": {
+    "counts": {
+      "causes": 1,
+      "treats": 21
+    },
+    "top_relation": "treats",
+    "top_count": 21,
+    "total": 22,
+    "top_ratio": 0.9545454545454546,
+    "mapped_to": "treats"
+  },
+  "IS": {
+    "counts": {
+      "causes": 119,
+      "treats": 179,
+      "increases": 11,
+      "reduces": 19,
+      "metabolized_by": 6,
+      "interacts_with": 14
+    },
+    "top_relation": "treats",
+    "top_count": 179,
+    "total": 348,
+    "top_ratio": 0.514367816091954,
+    "mapped_to": "unknown"
+  },
+  "IS_USED_TO_TREAT": {
+    "counts": {
+      "treats": 11
+    },
+    "top_relation": "treats",
+    "top_count": 11,
+    "total": 11,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "IS_TREATED_WITH": {
+    "counts": {
+      "treats": 14
+    },
+    "top_relation": "treats",
+    "top_count": 14,
+    "total": 14,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "TREATS": {
+    "counts": {
+      "treats": 34
+    },
+    "top_relation": "treats",
+    "top_count": 34,
+    "total": 34,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "TREATED_BY": {
+    "counts": {
+      "treats": 14
+    },
+    "top_relation": "treats",
+    "top_count": 14,
+    "total": 14,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "RELATED_TO": {
+    "counts": {
+      "treats": 4,
+      "reduces": 8,
+      "causes": 4,
+      "prevents": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 8,
+    "total": 17,
+    "top_ratio": 0.47058823529411764,
+    "mapped_to": "unknown"
+  },
+  "REDUCES": {
+    "counts": {
+      "reduces": 14,
+      "causes": 3,
+      "treats": 12
+    },
+    "top_relation": "reduces",
+    "top_count": 14,
+    "total": 29,
+    "top_ratio": 0.4827586206896552,
+    "mapped_to": "unknown"
+  },
+  "IS_TAKEN": {
+    "counts": {
+      "reduces": 3
+    },
+    "top_relation": "reduces",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"PAIN_RELIEF\"": {
+    "counts": {
+      "reduces": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"EFFECTS\"": {
+    "counts": {
+      "reduces": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"SUBJECT\"": {
+    "counts": {
+      "reduces": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"RELATION\"": {
+    "counts": {
+      "reduces": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"OBJECT\"": {
+    "counts": {
+      "reduces": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "REDUCES_PAIN": {
+    "counts": {
+      "reduces": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "FEVER": {
+    "counts": {
+      "reduces": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "PAIN": {
+    "counts": {
+      "reduces": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "IS_METABOLIZED_BY_THE_LIVER": {
+    "counts": {
+      "metabolized_by": 3
+    },
+    "top_relation": "metabolized_by",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "metabolized_by"
+  },
+  "METABOLIZES": {
+    "counts": {
+      "metabolized_by": 6
+    },
+    "top_relation": "metabolized_by",
+    "top_count": 6,
+    "total": 6,
+    "top_ratio": 1.0,
+    "mapped_to": "metabolized_by"
+  },
+  "METABOLISM": {
+    "counts": {
+      "metabolized_by": 2
+    },
+    "top_relation": "metabolized_by",
+    "top_count": 2,
+    "total": 2,
+    "top_ratio": 1.0,
+    "mapped_to": "metabolized_by"
+  },
+  "IS_BROKEN_DOWN_BY_THE_LIVER": {
+    "counts": {
+      "metabolized_by": 3
+    },
+    "top_relation": "metabolized_by",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "metabolized_by"
+  },
+  "\"REDUCED\"": {
+    "counts": {
+      "reduces": 3
+    },
+    "top_relation": "reduces",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "LOWERS": {
+    "counts": {
+      "reduces": 29,
+      "treats": 3
+    },
+    "top_relation": "reduces",
+    "top_count": 29,
+    "total": 32,
+    "top_ratio": 0.90625,
+    "mapped_to": "reduces"
+  },
+  "LOWERS_CHOLESTEROL": {
+    "counts": {
+      "reduces": 24
+    },
+    "top_relation": "reduces",
+    "top_count": 24,
+    "total": 24,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"LOWER\"": {
+    "counts": {
+      "reduces": 2,
+      "prevents": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 2,
+    "total": 3,
+    "top_ratio": 0.6666666666666666,
+    "mapped_to": "reduces"
+  },
+  "REGULATES": {
+    "counts": {
+      "causes": 5
+    },
+    "top_relation": "causes",
+    "top_count": 5,
+    "total": 5,
+    "top_ratio": 1.0,
+    "mapped_to": "causes"
+  },
+  "HELPS": {
+    "counts": {
+      "causes": 3,
+      "prevents": 1,
+      "treats": 20
+    },
+    "top_relation": "treats",
+    "top_count": 20,
+    "total": 24,
+    "top_ratio": 0.8333333333333334,
+    "mapped_to": "treats"
+  },
+  "CONTROLS": {
+    "counts": {
+      "causes": 2
+    },
+    "top_relation": "causes",
+    "top_count": 2,
+    "total": 2,
+    "top_ratio": 1.0,
+    "mapped_to": "causes"
+  },
+  "IN": {
+    "counts": {
+      "causes": 1,
+      "treats": 1
+    },
+    "top_relation": "causes",
+    "top_count": 1,
+    "total": 2,
+    "top_ratio": 0.5,
+    "mapped_to": "unknown"
+  },
+  "INSULIN": {
+    "counts": {
+      "causes": 3
+    },
+    "top_relation": "causes",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "causes"
+  },
+  "REGULATES_BLOOD_GLUCOSE": {
+    "counts": {
+      "causes": 3
+    },
+    "top_relation": "causes",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "causes"
+  },
+  "TREATED": {
+    "counts": {
+      "treats": 46
+    },
+    "top_relation": "treats",
+    "top_count": 46,
+    "total": 46,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "IS_EFFECTIVE": {
+    "counts": {
+      "treats": 3
+    },
+    "top_relation": "treats",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "RELIEF": {
+    "counts": {
+      "reduces": 22
+    },
+    "top_relation": "reduces",
+    "top_count": 22,
+    "total": 22,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"USED\"": {
+    "counts": {
+      "reduces": 4,
+      "treats": 5
+    },
+    "top_relation": "treats",
+    "top_count": 5,
+    "total": 9,
+    "top_ratio": 0.5555555555555556,
+    "mapped_to": "unknown"
+  },
+  "\"RELIEF\"": {
+    "counts": {
+      "reduces": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"PAIN\"": {
+    "counts": {
+      "reduces": 2,
+      "treats": 4
+    },
+    "top_relation": "treats",
+    "top_count": 4,
+    "total": 6,
+    "top_ratio": 0.6666666666666666,
+    "mapped_to": "treats"
+  },
+  "\"TREATMENT\"": {
+    "counts": {
+      "reduces": 3,
+      "treats": 8
+    },
+    "top_relation": "treats",
+    "top_count": 8,
+    "total": 11,
+    "top_ratio": 0.7272727272727273,
+    "mapped_to": "treats"
+  },
+  "\"MANAGED\"": {
+    "counts": {
+      "reduces": 3
+    },
+    "top_relation": "reduces",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"BETA_BLOCKERS\"": {
+    "counts": {
+      "reduces": 14
+    },
+    "top_relation": "reduces",
+    "top_count": 14,
+    "total": 14,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"REDUCE_INFLAMMATION\"": {
+    "counts": {
+      "reduces": 3
+    },
+    "top_relation": "reduces",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"ARE\"": {
+    "counts": {
+      "reduces": 2
+    },
+    "top_relation": "reduces",
+    "top_count": 2,
+    "total": 2,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"DECREASE_INFLAMMATION\"": {
+    "counts": {
+      "reduces": 3
+    },
+    "top_relation": "reduces",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"DECREASE\"": {
+    "counts": {
+      "reduces": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"INFLAMMATION\"": {
+    "counts": {
+      "reduces": 11
+    },
+    "top_relation": "reduces",
+    "top_count": 11,
+    "total": 11,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"ANTI-INFLAMMATORY\"": {
+    "counts": {
+      "reduces": 3
+    },
+    "top_relation": "reduces",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "IS_MANAGED_WITH": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "ARE": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "LACTIC_ACIDOSIS": {
+    "counts": {
+      "causes": 17
+    },
+    "top_relation": "causes",
+    "top_count": 17,
+    "total": 17,
+    "top_ratio": 1.0,
+    "mapped_to": "causes"
+  },
+  "HAS": {
+    "counts": {
+      "causes": 3
+    },
+    "top_relation": "causes",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "causes"
+  },
+  "SIDE_EFFECT": {
+    "counts": {
+      "causes": 17
+    },
+    "top_relation": "causes",
+    "top_count": 17,
+    "total": 17,
+    "top_ratio": 1.0,
+    "mapped_to": "causes"
+  },
+  "INTERACTS_WITH": {
+    "counts": {
+      "interacts_with": 4
+    },
+    "top_relation": "interacts_with",
+    "top_count": 4,
+    "total": 4,
+    "top_ratio": 1.0,
+    "mapped_to": "interacts_with"
+  },
+  "ALTERS": {
+    "counts": {
+      "interacts_with": 1
+    },
+    "top_relation": "interacts_with",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "interacts_with"
+  },
+  "EFFECT": {
+    "counts": {
+      "interacts_with": 1
+    },
+    "top_relation": "interacts_with",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "interacts_with"
+  },
+  "PREVENTION": {
+    "counts": {
+      "prevents": 2
+    },
+    "top_relation": "prevents",
+    "top_count": 2,
+    "total": 2,
+    "top_ratio": 1.0,
+    "mapped_to": "prevents"
+  },
+  "USE": {
+    "counts": {
+      "prevents": 2,
+      "causes": 1
+    },
+    "top_relation": "prevents",
+    "top_count": 2,
+    "total": 3,
+    "top_ratio": 0.6666666666666666,
+    "mapped_to": "prevents"
+  },
+  "PREVENTS": {
+    "counts": {
+      "prevents": 24
+    },
+    "top_relation": "prevents",
+    "top_count": 24,
+    "total": 24,
+    "top_ratio": 1.0,
+    "mapped_to": "prevents"
+  },
+  "PREVENT": {
+    "counts": {
+      "prevents": 5
+    },
+    "top_relation": "prevents",
+    "top_count": 5,
+    "total": 5,
+    "top_ratio": 1.0,
+    "mapped_to": "prevents"
+  },
+  "\"REDUCTION\"": {
+    "counts": {
+      "prevents": 13
+    },
+    "top_relation": "prevents",
+    "top_count": 13,
+    "total": 13,
+    "top_ratio": 1.0,
+    "mapped_to": "prevents"
+  },
+  "TAKEN": {
+    "counts": {
+      "prevents": 1
+    },
+    "top_relation": "prevents",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "prevents"
+  },
+  "REDUCED": {
+    "counts": {
+      "reduces": 25
+    },
+    "top_relation": "reduces",
+    "top_count": 25,
+    "total": 25,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "IS_USED_FOR": {
+    "counts": {
+      "treats": 35
+    },
+    "top_relation": "treats",
+    "top_count": 35,
+    "total": 35,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "REPLACES": {
+    "counts": {
+      "treats": 3
+    },
+    "top_relation": "treats",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"USE\"": {
+    "counts": {
+      "reduces": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "\"FOR\"": {
+    "counts": {
+      "reduces": 1,
+      "prevents": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 2,
+    "top_ratio": 0.5,
+    "mapped_to": "unknown"
+  },
+  "RELIEVES": {
+    "counts": {
+      "reduces": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "QUICKLY": {
+    "counts": {
+      "reduces": 1
+    },
+    "top_relation": "reduces",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "IS_USED_AS_A": {
+    "counts": {
+      "causes": 15
+    },
+    "top_relation": "causes",
+    "top_count": 15,
+    "total": 15,
+    "top_ratio": 1.0,
+    "mapped_to": "causes"
+  },
+  "DIURETIC": {
+    "counts": {
+      "causes": 84
+    },
+    "top_relation": "causes",
+    "top_count": 84,
+    "total": 84,
+    "top_ratio": 1.0,
+    "mapped_to": "causes"
+  },
+  "DIURETIC_ACTION": {
+    "counts": {
+      "causes": 6
+    },
+    "top_relation": "causes",
+    "top_count": 6,
+    "total": 6,
+    "top_ratio": 1.0,
+    "mapped_to": "causes"
+  },
+  "SUPPRESSES": {
+    "counts": {
+      "causes": 19,
+      "treats": 3
+    },
+    "top_relation": "causes",
+    "top_count": 19,
+    "total": 22,
+    "top_ratio": 0.8636363636363636,
+    "mapped_to": "causes"
+  },
+  "SUPPRESS": {
+    "counts": {
+      "causes": 7
+    },
+    "top_relation": "causes",
+    "top_count": 7,
+    "total": 7,
+    "top_ratio": 1.0,
+    "mapped_to": "causes"
+  },
+  "\"IS\"": {
+    "counts": {
+      "causes": 16,
+      "prevents": 1
+    },
+    "top_relation": "causes",
+    "top_count": 16,
+    "total": 17,
+    "top_ratio": 0.9411764705882353,
+    "mapped_to": "causes"
+  },
+  "IS_MANAGED": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "TREATMENT": {
+    "counts": {
+      "treats": 16
+    },
+    "top_relation": "treats",
+    "top_count": 16,
+    "total": 16,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "ANTIBIOTIC": {
+    "counts": {
+      "treats": 2
+    },
+    "top_relation": "treats",
+    "top_count": 2,
+    "total": 2,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "SYMPTOM": {
+    "counts": {
+      "treats": 28
+    },
+    "top_relation": "treats",
+    "top_count": 28,
+    "total": 28,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "DISEASE": {
+    "counts": {
+      "treats": 26
+    },
+    "top_relation": "treats",
+    "top_count": 26,
+    "total": 26,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "INFECTION": {
+    "counts": {
+      "treats": 10
+    },
+    "top_relation": "treats",
+    "top_count": 10,
+    "total": 10,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "LOWERED_BY": {
+    "counts": {
+      "reduces": 18
+    },
+    "top_relation": "reduces",
+    "top_count": 18,
+    "total": 18,
+    "top_ratio": 1.0,
+    "mapped_to": "reduces"
+  },
+  "IS_TREATED_BY": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "IS_TREATMENT": {
+    "counts": {
+      "treats": 4
+    },
+    "top_relation": "treats",
+    "top_count": 4,
+    "total": 4,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"TREATS\"": {
+    "counts": {
+      "treats": 9
+    },
+    "top_relation": "treats",
+    "top_count": 9,
+    "total": 9,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"RELIEVES\"": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"PRESCRIBED\"": {
+    "counts": {
+      "treats": 4
+    },
+    "top_relation": "treats",
+    "top_count": 4,
+    "total": 4,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"EFFECTIVE\"": {
+    "counts": {
+      "treats": 3
+    },
+    "top_relation": "treats",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"REDUCES\"": {
+    "counts": {
+      "treats": 24,
+      "prevents": 12
+    },
+    "top_relation": "treats",
+    "top_count": 24,
+    "total": 36,
+    "top_ratio": 0.6666666666666666,
+    "mapped_to": "treats"
+  },
+  "CONTROLLED": {
+    "counts": {
+      "treats": 3
+    },
+    "top_relation": "treats",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"PREVENTS\"": {
+    "counts": {
+      "prevents": 1
+    },
+    "top_relation": "prevents",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "prevents"
+  },
+  "\"PREVENT\"": {
+    "counts": {
+      "prevents": 2
+    },
+    "top_relation": "prevents",
+    "top_count": 2,
+    "total": 2,
+    "top_ratio": 1.0,
+    "mapped_to": "prevents"
+  },
+  "\"IS_AN\"": {
+    "counts": {
+      "prevents": 4,
+      "treats": 3
+    },
+    "top_relation": "prevents",
+    "top_count": 4,
+    "total": 7,
+    "top_ratio": 0.5714285714285714,
+    "mapped_to": "unknown"
+  },
+  "\"HELPS_PREVENT_ARTERIAL_THROMBOSIS\"": {
+    "counts": {
+      "prevents": 2
+    },
+    "top_relation": "prevents",
+    "top_count": 2,
+    "total": 2,
+    "top_ratio": 1.0,
+    "mapped_to": "prevents"
+  },
+  "IS_PRESCRIBED_TO": {
+    "counts": {
+      "prevents": 3
+    },
+    "top_relation": "prevents",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "prevents"
+  },
+  "GOUT": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "ANGINA": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "ISOSORBIDE_MONONITRATE": {
+    "counts": {
+      "treats": 3
+    },
+    "top_relation": "treats",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"ISOSORBIDE_MONONITRATE\"": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "DILATES": {
+    "counts": {
+      "treats": 3
+    },
+    "top_relation": "treats",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "IMPROVES": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"IS_A\"": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"IS_USED\"": {
+    "counts": {
+      "treats": 4
+    },
+    "top_relation": "treats",
+    "top_count": 4,
+    "total": 4,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "TREATED_WITH": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "CONCENTRATES": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "CONCENTRATION": {
+    "counts": {
+      "treats": 2
+    },
+    "top_relation": "treats",
+    "top_count": 2,
+    "total": 2,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "IS_EFFECTIVE_FOR": {
+    "counts": {
+      "treats": 6
+    },
+    "top_relation": "treats",
+    "top_count": 6,
+    "total": 6,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"FIRST-LINE\"": {
+    "counts": {
+      "treats": 2
+    },
+    "top_relation": "treats",
+    "top_count": 2,
+    "total": 2,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"IS_USED_FOR\"": {
+    "counts": {
+      "treats": 3
+    },
+    "top_relation": "treats",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"COVERS\"": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"IN\"": {
+    "counts": {
+      "treats": 1,
+      "prevents": 2
+    },
+    "top_relation": "prevents",
+    "top_count": 2,
+    "total": 3,
+    "top_ratio": 0.6666666666666666,
+    "mapped_to": "prevents"
+  },
+  "HEALS": {
+    "counts": {
+      "treats": 2
+    },
+    "top_relation": "treats",
+    "top_count": 2,
+    "total": 2,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "FROM": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "IS_USED_FOR_STROKE_PREVENTION": {
+    "counts": {
+      "prevents": 1
+    },
+    "top_relation": "prevents",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "prevents"
+  },
+  "IS_A_CONDITION": {
+    "counts": {
+      "prevents": 1
+    },
+    "top_relation": "prevents",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "prevents"
+  },
+  "IS_A_MEDICAL_CONDITION": {
+    "counts": {
+      "prevents": 8
+    },
+    "top_relation": "prevents",
+    "top_count": 8,
+    "total": 8,
+    "top_ratio": 1.0,
+    "mapped_to": "prevents"
+  },
+  "\"ALTERNATIVE\"": {
+    "counts": {
+      "prevents": 1
+    },
+    "top_relation": "prevents",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "prevents"
+  },
+  "SKIN_INFECTION": {
+    "counts": {
+      "treats": 1
+    },
+    "top_relation": "treats",
+    "top_count": 1,
+    "total": 1,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "IS_USED_IN": {
+    "counts": {
+      "treats": 9
+    },
+    "top_relation": "treats",
+    "top_count": 9,
+    "total": 9,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  },
+  "\"IMPROVES\"": {
+    "counts": {
+      "treats": 3
+    },
+    "top_relation": "treats",
+    "top_count": 3,
+    "total": 3,
+    "top_ratio": 1.0,
+    "mapped_to": "treats"
+  }
+}
