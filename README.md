@@ -28,7 +28,11 @@ Inspect `Demo/method_comparison.md`, `Demo/state_engine_results.json`, and `Demo
 
 ## Project overview figure
 
-![Method framework: data → baselines → triple streams → state engine → metrics & QA](assets/framework.svg)
+**End-to-end pipeline** (data ingestion, baselines, triple streams, evidence-bound state engine, evaluation outputs):
+
+![System architecture: data ingestion, knowledge extraction baselines, generated triple streams, evidence-bound ontology state engine, evaluation metrics and reports](assets/framework_overview.png)
+
+*Optional:* a lightweight vector version lives at [`assets/framework.svg`](assets/framework.svg) for crisp scaling in PDFs or slides.
 
 ```mermaid
 flowchart LR
@@ -53,7 +57,7 @@ flowchart LR
 
 ```text
 Capstone/
-├── assets/                 # README figures (e.g. framework.svg)
+├── assets/                 # README figures (framework_overview.png, framework.svg)
 ├── baselines/              # Neural & LLM baselines, training, graph/QA eval
 │   ├── data/               # Samples: paraphrases, QA, BC5CDR notes, scripts
 │   ├── extractors/         # Qwen prompt extractor
@@ -90,7 +94,7 @@ Capstone/
 | `scripts/` | **Utilities:** e.g. `build_relation_train.py` to build `relation_train.json` from pipeline outputs. |
 | `run_full_pipeline.sh` | **End-to-end driver:** paraphrase graph eval → relation map → aligned QA → state engine → baseline QA → comparison → HTML/PNG report. |
 | `finetune_relation_on_pipeline.py` | **Optional:** fine-tune the relation head on triples collected from full `paraphrase_results.json`. |
-| `assets/` | **Figures** for documentation (`framework.svg` above). |
+| `assets/` | **Figures** for documentation (`framework_overview.png`, `framework.svg`). |
 | `LICENSE` | **MIT license** for project code (see dataset-specific notices below). |
 
 ---
@@ -276,9 +280,11 @@ The table below matches the committed run summarized in [`results/method_compari
 
 ### Results figure (sample merged graph)
 
-Example **merged knowledge graph** for paraphrase **set 0** (*“Aspirin causes gastric bleeding.”*), from the same checked-in run. Edge colors reflect evidence status (active / uncertain / weak); see the legend in the image.
+**Merged knowledge graph** for paraphrase **set 0** (seed fact: *“Aspirin causes gastric bleeding.”*), produced by `state_engine/visualize_results.py` at 200 DPI. Nodes use a light fill with a dark border; edge color encodes **evidence status** (see legend). Regenerate after a new run:
 
-![Merged graph for paraphrase set 0 (from results/state_engine_graph_set0.png)](results/state_engine_graph_set0.png)
+`python3 -m state_engine.visualize_results --json results/state_engine_results.json --graph_png results/state_engine_graph_set0.png --set_id 0`
+
+![Merged graph for paraphrase set 0](results/state_engine_graph_set0.png)
 
 **Related artifacts** in `results/`:
 
