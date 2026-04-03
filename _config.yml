@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+title: "Evidence-Bound Ontology State Engine"
+description: "Capstone — biomedical relation extraction, paraphrase stability, and QA-over-graph evaluation."
+show_downloads: true
